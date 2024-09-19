@@ -119,7 +119,6 @@
     ?>
 
     <script>
-        //JAVA que es un lenguaje fuertemente tipado(Cuando pongo una variable tengo que darle un tipo)
 
         function mostrarVentana() {
             document.getElementById("formulario").style.display = "block";
