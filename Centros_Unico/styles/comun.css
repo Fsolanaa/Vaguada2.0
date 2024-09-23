@@ -44,7 +44,7 @@ nav {
   
 }
 
-.cont-ul {
+.listaNav {
   position: relative;
   align-items: center;
   height: 60px;
@@ -77,7 +77,7 @@ nav li:hover {
   z-index: 20;
 }
 
-.develop {
+.productos {
   position: absolute;
   left: 25%;
   z-index: 20;
@@ -96,13 +96,13 @@ nav li:hover {
   z-index: 20;
 }
 
-.ul-second {
+.ulProductos {
   display: none;
   position: absolute;
   margin-top: 1.5vw;
 }
 
-.ul-second > li {
+.ulProductos > li {
   width: 190px;
   transform: translateX(-20px);
   border-bottom: solid 1px black;
@@ -110,16 +110,16 @@ nav li:hover {
   background-color: #f5e1ce;
 }
 
-.ul-second > li:hover {
+.ulProductos > li:hover {
   background-color: e8c39e;
 }
 
-.develop:hover > .ul-second {
+.productos:hover > .ulProductos {
   display: block;
 }
 
 
-#box-contact {
+#cajaContacto {
   width: 100%;
   height: 50px;
   position: sticky;
@@ -132,7 +132,7 @@ nav li:hover {
   padding: 5px;
 }
 
-#box-contact a {
+#cajaContacto a {
   text-decoration: none;
   color: #fff;
   display: block;

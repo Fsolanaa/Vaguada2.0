@@ -289,21 +289,21 @@
             document.getElementById("cuerpo").style.filter = "blur(5px)";
             document.getElementById("header").style.filter = "blur(5px)";
             document.getElementById("nav").style.filter = "blur(5px)";
-            document.getElementById("box-contact").style.filter = "blur(5px)";
+            document.getElementById("cajaContacto").style.filter = "blur(5px)";
         }
         function cerrarFormulario() {
             document.getElementById("formulario").style.display = "none";
             document.getElementById("cuerpo").style.filter = "none";
             document.getElementById("header").style.filter = "none";
             document.getElementById("nav").style.filter = "none";
-            document.getElementById("box-contact").style.filter = "none";
+            document.getElementById("cajaContacto").style.filter = "none";
         }
         function cesta(){
             document.getElementById("cesta").style.display = "block";
             document.getElementById("cuerpo").style.filter = "blur(5px)";
             document.getElementById("header").style.filter = "blur(5px)";
             document.getElementById("nav").style.filter = "blur(5px)";
-            document.getElementById("box-contact").style.filter = "blur(5px)";
+            document.getElementById("cajaContacto").style.filter = "blur(5px)";
         }
 
         function ocultarCesta() {
@@ -311,7 +311,7 @@
             document.getElementById("cuerpo").style.filter = "none";
             document.getElementById("header").style.filter = "none";
             document.getElementById("nav").style.filter = "none";
-            document.getElementById("box-contact").style.filter = "none";
+            document.getElementById("cajaContacto").style.filter = "none";
         }
         function agregarAlCarrito() {
         // Aquí puedes agregar la lógica para manejar la acción de agregar al carrito

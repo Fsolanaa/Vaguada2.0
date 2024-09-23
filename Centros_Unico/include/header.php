@@ -1,4 +1,4 @@
-
+uctos
     <header id="header">
         <a href="index.php">
             <img src="img/logo.svg" class="logo" />
@@ -6,17 +6,17 @@
     </header>
 
     <nav id="nav">
-        <ul class="cont-ul">
+        <ul class="listaNav">
             <li class="equipo">
                 <a href="nuestroEquipo.php"><strong>NUESTRO EQUIPO</strong></a>
             </li>
-            <li class="develop">
+            <li class="productos">
                 <a href="Productos.php"><strong>PRODUCTOS</strong></a>
-                <ul class="ul-second">
-                    <li class="front"><strong>Depilación Láser</strong></li>
-                    <li class="front"><strong>Estética Avanzada</strong></li>
-                    <li class="front"><strong>Medicina Estética</strong></li>
-                    <li class="front"><strong>Perdida de Peso</strong></li>
+                <ul class="ulProductos">
+                    <li class="liProductos"><strong>Depilación Láser</strong></li>
+                    <li class="liProductos"><strong>Estética Avanzada</strong></li>
+                    <li class="liProductos"><strong>Medicina Estética</strong></li>
+                    <li class="liProductos"><strong>Perdida de Peso</strong></li>
                 </ul>
             </li>
             <li class="promo">
@@ -29,7 +29,7 @@
         </ul>
     </nav>
 
-    <div id="box-contact">
+    <div id="cajaContacto">
         <!-- ABRIR FORMULARIO -->
         <a href="#" onclick="mostrarVentana()">
             <img class="punto" src="img/CarbonDotMark.png" />
