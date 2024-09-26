@@ -39,12 +39,12 @@
 
     <div id="cajaContacto">
         <!-- ABRIR FORMULARIO -->
-        <a href="#" onclick="mostrarVentana()">
+        <!-- <a href="#" onclick="mostrarVentana()"> -->
             <img class="punto" src="img/CarbonDotMark.png" />
             <strong>PIDE TÚ CITA </strong>
             <span class="text-primary"> AQUÍ </span>
             <strong> PARA EL DIAGNÓSTICO GRATUITO</strong>
             <img class="punto" src="img/CarbonDotMark.png" />
-        </a>
+        <!-- </a> -->
     </div>
 

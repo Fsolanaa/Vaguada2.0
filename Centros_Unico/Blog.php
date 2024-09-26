@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="styles/comun.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="styles/Blog.css?v=<?php echo time(); ?>">
     <link rel="shortcut icon" href="img/iconCentrosUnico.png" />
+    <script src="js/contacto.js" defer></script>
+
     <title>Document</title>
 </head>
 
@@ -118,7 +120,7 @@
     include "./include/footer.php";
     ?>
 
-<script>
+    <!-- <script>
         //JAVA que es un lenguaje fuertemente tipado(Cuando pongo una variable tengo que darle un tipo)
 
         function mostrarVentana() {
@@ -135,7 +137,7 @@
             document.getElementById("nav").style.filter = "none";
             document.getElementById("cajaContacto").style.filter = "none";
         }
-    </script>
+    </script> -->
 
 </body>
 

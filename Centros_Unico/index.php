@@ -9,10 +9,9 @@
     <link rel="stylesheet" href="styles/comun.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="styles/index.css?v=<?php echo time(); ?>">
     <link rel="shortcut icon" href="img/iconCentrosUnico.png" />
+    <script src="js/contacto.js" defer></script>
     
     <title>Document</title>
-
-    
 
 </head>
 
@@ -28,8 +27,6 @@
 
     <main id="cuerpo">
 
-    
-    
         <!-- Aqui empieza el slider -->
         <div class="container-all">
             <input type="radio" id="1" name="image-slide" hidden />
@@ -118,7 +115,7 @@
     include "./include/footer.php";
     ?>
 
-    <script>
+    <!-- <script>
 
         function mostrarVentana() {
             document.getElementById("formulario").style.display = "block";
@@ -134,7 +131,7 @@
             document.getElementById("nav").style.filter = "none";
             document.getElementById("cajaContacto").style.filter = "none";
         }
-    </script>
+    </script> -->
 </body>
 
 </html>

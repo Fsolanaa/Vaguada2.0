@@ -37,6 +37,10 @@
   overflow: hidden;
 }
 
+#form .cerrar:hover {
+  cursor: pointer;
+}
+
 #form .cerrar img {
   width: 98%;
   margin-top: 7%;

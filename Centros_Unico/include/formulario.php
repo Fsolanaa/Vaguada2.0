@@ -1,12 +1,12 @@
 <section id="formulario">
     
     <form id="form" action="https://formsubmit.co/fsolanaaranega@gmail.com" method="POST">
-        <a href="#" onclick="cerrarFormulario()">
+        <!-- <a href="#" onclick="cerrarFormulario()"> -->
             <!-- CERRAR FORMULARIO -->
-            <div class="cerrar">
+            <div class="cerrar" id="cerrar">
                 <img src="img/cerrar.png" alt="cerrar" />
             </div>
-        </a>
+        <!-- </a> -->
         <h2>DIAGNÓSTICO GRATUITO</h2>
 
         <div class="input-group">
