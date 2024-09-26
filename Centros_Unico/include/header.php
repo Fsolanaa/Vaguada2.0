@@ -15,29 +15,27 @@
         </div>
     </header>
 
+    <!-- NAV -->
+
     <nav id="nav">
         <ul class="listaNav">
             <li class="equipo">
-                <a href="nuestroEquipo.php"><strong>NUESTRO EQUIPO</strong></a>
+                <a href="nuestroEquipo.php">NUESTRO EQUIPO</a>
             </li>
             <li class="productos">
-                <a href="Productos.php"><strong>PRODUCTOS</strong></a>
-                <ul class="ulProductos">
-                    <li class="liProductos"><strong>Depilación Láser</strong></li>
-                    <li class="liProductos"><strong>Estética Avanzada</strong></li>
-                    <li class="liProductos"><strong>Medicina Estética</strong></li>
-                    <li class="liProductos"><strong>Perdida de Peso</strong></li>
-                </ul>
+                <a href="Productos.php">PRODUCTOS</a>
             </li>
             <li class="promo">
-                <a href="Promociones.php"><strong>PROMOCIONES</strong></a>
+                <a href="Promociones.php">PROMOCIONES</a>
             </li>
 
             <li class="blog">
-                <a href="Blog.php"><strong>BLOG</strong></a>
+                <a href="Blog.php">BLOG</a>
             </li>
         </ul>
     </nav>
+
+    <!-- CAJA CONTACTO -->
 
     <div id="cajaContacto">
         <!-- ABRIR FORMULARIO -->
