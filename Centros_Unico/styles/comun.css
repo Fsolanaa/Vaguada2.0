@@ -12,7 +12,7 @@ li{
 
 /* ESTILOS HEADER */
 header {
-  height: 75px;
+  height: 65px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -21,26 +21,27 @@ header {
 
 header .logo {
   width: 65%;
-  height: 75px;
+  height: 65px;
 
 }
 
 header .logo a {
   display: flex;
-  height: 75px;
-  padding: 1%;
+  height: 65px;
+  
 
 }
 
 header .logo img {
   width: 200px;
-  padding: 5px;
+  height: 65px;
+  padding: 1%;
 }
 
 header .botonesHeader{
   width: 35%;
   min-width: 100px;
-  height: 75px;
+  height: 65px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -52,17 +53,17 @@ header .botonesHeader{
 header .botonesHeader a{
   width: 10%;
   min-width: 40px;
-  height: 75px;
-  min-height: 75px;
-  max-height: 75px;
+  height: 65px;
+  min-height: 65px;
+  max-height: 65px;
   overflow: hidden;
   text-decoration: none;
 }
 
 header .botonesHeader i{
   width: auto;
-  height: 75px;
-  min-height: 75px;
+  height: 65px;
+  min-height: 65px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -83,7 +84,7 @@ header .botonesHeader i:hover{
 
 nav {
   width: 100%;
-  height: 65px;
+  height: 50px;
   position: sticky;
   top: 0px;
   z-index: 110;
@@ -93,7 +94,7 @@ nav {
 }
 
 .listaNav {
-  height: 65px;
+  height: 50px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -116,7 +117,7 @@ nav ul li {
 
 nav ul li a {
   width: 100%;
-  height: 65px;
+  height: 50px;
   text-decoration: none;
   display: flex;
   flex-wrap: wrap;
@@ -135,15 +136,26 @@ nav ul li:hover {
 
 #cajaContacto {
   width: 100%;
-  height: 50px;
+  height: 45px;
   cursor: pointer;
   position: sticky;
-  top: 65px;
-  z-index: 100;
+  top: 50px;
+  z-index: 110;
   background-color: black;
   color: #ffffff;
   font-size: 16px;
   text-align: center;
+  
+}
+
+#cajaContacto .contacto{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  height: 45px;
+  width: 100%;
   padding: 5px;
 }
 
@@ -153,12 +165,24 @@ nav ul li:hover {
   display: block;
 }
 
-.punto {
-  margin-top: 1px;
+#cajaContacto .punto {
+  padding: 0 10px;
 }
 
-.text-primary {
-  color: #ff7f32;
+#cajaContacto h5{
+  width: auto;
+  font-size: medium;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+
+}
+
+#cajaContacto .text-primary {
+  color: #ffb282;
+  padding: 0 5px;
 }
 
 /* De aqui para abajo empieza el footer */
@@ -245,6 +269,8 @@ footer{
   background-color: #ff7f32;
 }
 
+/* MEDIA FOOTER */
+
 @media(max-width:991px){
   .footer-row{
       text-align: center;
@@ -257,6 +283,8 @@ footer{
   }
 
 }
+
+/* MEDIA NAV */
 
 @media(max-width:750px){
   nav .listaNav{
@@ -280,7 +308,7 @@ footer{
 
   nav ul li a {
       width: 100%;
-      height: 65px;
+      height: 50px;
       text-decoration: none;
       display: flex;
       flex-wrap: wrap;
@@ -289,10 +317,73 @@ footer{
       align-items: center;
       color: #804000;
       font-weight: bold;
-      font-size: small;
+      font-size: 12.5px;
       text-align: center;
 
     }
 }
 
+/* MEDIA CAJA CONTACTO */
 
+@media(max-width:350px){
+  #cajaContacto .contacto{
+    padding: 0;
+    justify-content: space-between;
+  }
+
+  #cajaContacto h5{
+    font-size: 11px;
+  }
+
+  #cajaContacto .punto{
+    padding: 0 2px;
+    width: 20px;
+  }
+}
+
+@media(min-width:350px){
+  #cajaContacto .contacto{
+    padding: 0;
+  }
+
+  #cajaContacto h5{
+    font-size: 11.5px;
+  }
+
+  #cajaContacto .punto{
+    padding: 0 2px;
+    width: 20px;
+  }
+}
+
+@media(min-width:470px){
+  #cajaContacto h5{
+    font-size: 15px;
+  }
+
+  #cajaContacto .punto {
+    padding: 0 2px;
+    width: 25px;
+  }
+}
+
+@media(min-width:600px){
+  #cajaContacto h5{
+    font-size: large;
+  }
+
+  #cajaContacto .punto {
+    margin: 0 10px;
+    width: 35px;
+  }
+}
+
+
+/* MEDIA HEADER */
+
+@media(max-width:750px){
+  header .logo img {
+    width: 150px;
+    padding: 5px;
+  }
+}

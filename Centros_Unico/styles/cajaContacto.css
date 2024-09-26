@@ -1,0 +1,391 @@
+/* SIN USAR POR EL MOMENTO */
+
+* {
+    padding: 0;
+    margin: 0;
+    height: auto;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  li{
+    list-style: none;
+  }
+  
+  /* ESTILOS HEADER */
+  header {
+    height: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  header .logo {
+    width: 65%;
+    height: 65px;
+  
+  }
+  
+  header .logo a {
+    display: flex;
+    height: 65px;
+    
+  
+  }
+  
+  header .logo img {
+    width: 200px;
+    height: 65px;
+    padding: 1%;
+  }
+  
+  header .botonesHeader{
+    width: 35%;
+    min-width: 100px;
+    height: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: end;
+    align-content: end;
+    padding-right: 1%;
+  }
+  
+  header .botonesHeader a{
+    width: 10%;
+    min-width: 40px;
+    height: 65px;
+    min-height: 65px;
+    max-height: 65px;
+    overflow: hidden;
+    text-decoration: none;
+  }
+  
+  header .botonesHeader i{
+    width: auto;
+    height: 65px;
+    min-height: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    color: #ff7f32;
+    transform: scale(1.5);
+    transition: 0.3s;
+  }
+  
+  header .botonesHeader i:hover{
+    color: #df5b09;
+    transform: scale(1.7);
+    transition: 0.3s;
+  }
+  
+  /* ESTILOS NAV */
+  
+  nav {
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0px;
+    z-index: 110;
+    overflow: auto;
+    background-color: #f5e1ce;
+    
+  }
+  
+  .listaNav {
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  nav ul li {
+    width: 25%;
+    min-width: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  
+  nav ul li a {
+    width: 100%;
+    height: 50px;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #804000;
+    font-weight: bold;
+  }
+  
+  nav ul li:hover {
+    background-color: #e8c39e;
+  }
+  
+  /* ESTILOS FORMULARIO CONTACTO */
+  
+  #cajaContacto {
+    width: 100%;
+    height: 45px;
+    cursor: pointer;
+    position: sticky;
+    top: 50px;
+    z-index: 110;
+    background-color: black;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    
+  }
+  
+  #cajaContacto .contacto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 45px;
+    width: 100%;
+    padding: 5px;
+  }
+  
+  #cajaContacto a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+  }
+  
+  #cajaContacto .punto {
+    padding: 0 10px;
+  }
+  
+  #cajaContacto h5{
+    width: auto;
+    font-size: medium;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+  
+  }
+  
+  #cajaContacto .text-primary {
+    color: #ffb282;
+    padding: 0 5px;
+  }
+  
+  /* De aqui para abajo empieza el footer */
+  
+  footer{
+    position: relative;
+    top: auto;
+    height: fit-content;
+    background-color: #24262b;
+    padding: 80px 0;
+  }
+  
+  .container{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+  }
+  
+  .footer-row{
+    background-color: #24262b;
+     display: flex;
+     flex-wrap: wrap;
+  }
+  
+  .footer-links{
+    width: 25%;
+    padding: 0 15px;
+  }
+  
+  .footer-links h4{
+    width: 100%;
+    font-size: 20px;
+    color: #ff7f32;
+    margin-bottom: 25px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+  
+  .footer-links ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #BBBBBB;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+  }
+  
+  .footer-links ul li a:hover{
+    color: #FFFFFF;
+    padding-left: 6px;
+  }
+  
+  .social-link{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .social-link a {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    transition: all .5s ease;
+    text-decoration: none;
+  }
+  
+  .social-link a:hover{
+    background-color: #ff7f32;
+  }
+  
+  /* MEDIA FOOTER */
+  
+  @media(max-width:991px){
+    .footer-row{
+        text-align: center;
+    }
+  
+  
+    .footer-links{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+  
+  }
+  
+  /* MEDIA NAV */
+  
+  @media(max-width:750px){
+    nav .listaNav{
+        margin: 0;
+    }
+    nav .equipo{
+        border-right: 1px solid black;
+        width: 24%;
+    }
+    nav .productos{
+        border-right: 1px solid black;
+        width: 26%;
+    }
+    nav .promo{
+        border-right: 1px solid black;
+        width: 30%;
+    }
+    nav .blog{
+        width: 20%;
+    }
+  
+    nav ul li a {
+        width: 100%;
+        height: 50px;
+        text-decoration: none;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        color: #804000;
+        font-weight: bold;
+        font-size: 12.5px;
+        text-align: center;
+  
+      }
+  }
+  
+  /* MEDIA CAJA CONTACTO */
+  
+  @media(max-width:350px){
+    #cajaContacto .contacto{
+      padding: 0;
+      justify-content: space-between;
+    }
+  
+    #cajaContacto h5{
+      font-size: 11px;
+    }
+  
+    #cajaContacto .punto{
+      padding: 0 2px;
+      width: 20px;
+    }
+  }
+  
+  @media(min-width:350px){
+    #cajaContacto .contacto{
+      padding: 0;
+    }
+  
+    #cajaContacto h5{
+      font-size: 11.5px;
+    }
+  
+    #cajaContacto .punto{
+      padding: 0 2px;
+      width: 20px;
+    }
+  }
+  
+  @media(min-width:470px){
+    #cajaContacto h5{
+      font-size: 15px;
+    }
+  
+    #cajaContacto .punto {
+      padding: 0 2px;
+      width: 25px;
+    }
+  }
+  
+  @media(min-width:600px){
+    #cajaContacto h5{
+      font-size: large;
+    }
+  
+    #cajaContacto .punto {
+      margin: 0 10px;
+      width: 35px;
+    }
+  }
+  
+  
+  /* MEDIA HEADER */
+  
+  @media(max-width:750px){
+    header .logo img {
+      width: 150px;
+      padding: 5px;
+    }
+  }
