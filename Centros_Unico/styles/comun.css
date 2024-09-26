@@ -10,26 +10,76 @@ li{
   list-style: none;
 }
 
+/* ESTILOS HEADER */
 header {
   height: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-header a {
-  width: 80%;
-  height: 100px;
-  position: relative;
-  top: 0;
-  left: 10%;
-  padding: 10px;
+header .logo {
+  width: 65%;
+  height: 75px;
 
-  text-align: center;
-  display: block;
 }
 
-header a img {
+header .logo a {
+  display: flex;
+  height: 75px;
+  padding: 1%;
+
+}
+
+header .logo img {
   width: 200px;
   padding: 5px;
 }
+
+header .botonesHeader{
+  width: 35%;
+  min-width: 100px;
+  height: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: end;
+  align-content: end;
+  padding-right: 1%;
+}
+
+header .botonesHeader a{
+  width: 10%;
+  min-width: 40px;
+  height: 75px;
+  min-height: 75px;
+  max-height: 75px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+header .botonesHeader i{
+  width: auto;
+  height: 75px;
+  min-height: 75px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+  color: #ff7f32;
+  transform: scale(1.5);
+  transition: 0.3s;
+}
+
+header .botonesHeader i:hover{
+  color: #df5b09;
+  transform: scale(1.7);
+  transition: 0.3s;
+}
+
+/* ESTILOS NAV */
 
 nav {
   width: 100%;
@@ -96,6 +146,8 @@ nav li:hover {
   z-index: 20;
 }
 
+/* ESTILOS NAV DESPLEGABLE */
+
 .ulProductos {
   display: none;
   position: absolute;
@@ -118,6 +170,7 @@ nav li:hover {
   display: block;
 }
 
+/* ESTILOS FORMULARIO CONTACTO */
 
 #cajaContacto {
   width: 100%;

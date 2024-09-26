@@ -1,8 +1,18 @@
 
     <header id="header">
-        <a href="index.php">
-            <img src="img/logo.svg" class="logo" />
-        </a>
+        <div class="logo">
+            <a href="index.php" class="logoEnlace">
+                <img src="img/logo.svg" class="logoImg" />
+            </a>
+        </div>
+        <div class="botonesHeader">
+            <a href="#" class="perfil">
+                <i class="fa-solid fa-user"></i>
+            </a>
+            <a href="#" class="cesta">
+                <i class="fa-solid fa-basket-shopping"></i>
+            </a>
+        </div>
     </header>
 
     <nav id="nav">
