@@ -39,7 +39,7 @@
 
                 <h4><strong>Tarjeta Regalo</strong></h4>
 
-                <p class="parr">Si no sabes que regalar, una tarjeta regalo puede ser tu mejor decision para esa persona
+                <p class="parrafo">Si no sabes que regalar, una tarjeta regalo puede ser tu mejor decision para esa persona
                     tan especial.</p>
 
                 <button class="boton"><strong>Más información</strong></</button>
@@ -52,7 +52,7 @@
 
                 <h4><strong>Accent Prime Corporal</strong></h4>
 
-                <p class="parr">Estrena gluteos gracias a nuestros especialistas cualificados y a buenos precios.</p>
+                <p class="parrafo">Estrena gluteos gracias a nuestros especialistas cualificados y a buenos precios.</p>
 
                 <button class="boton"><strong>Más información</strong></</button>
 
@@ -64,7 +64,7 @@
 
                 <h4><strong>Depilacion gluteos</strong></h4>
 
-                <p class="parr">Estrena gluteos gracias a nuestros especialistas cualificados y a buenos precios.</p>
+                <p class="parrafo">Estrena gluteos gracias a nuestros especialistas cualificados y a buenos precios.</p>
 
                 <button class="boton"><strong>Más información</strong></</button>
 
@@ -76,7 +76,7 @@
 
                 <h4><strong>Hilos redensify</strong></h4>
 
-                <p class="parr">Rellenado de arrugas sin agujas.Trabaja el fotoenvejecimiento unificando el tono de la
+                <p class="parrafo">Rellenado de arrugas sin agujas.Trabaja el fotoenvejecimiento unificando el tono de la
                     piel.</p>
 
                 <button class="boton"><strong>Más información</strong></</button>

@@ -66,7 +66,7 @@
 
                 <h4><strong>Tarjeta Regalo</strong></h4>
 
-                <p class="parr">Si no sabes que regalar, una tarjeta regalo puede ser tu mejor decision para esa persona
+                <p class="parrafo">Si no sabes que regalar, una tarjeta regalo puede ser tu mejor decision para esa persona
                     tan especial.</p>
 
                 <a href="#" onclick="cesta()">
@@ -81,7 +81,7 @@
 
                 <h4><strong>Hidrolipoclasia</strong></h4>
 
-                <p class="parr">El tratamiento reductor de grasa y volumen Hidrolipoclasia elimina de forma duradera</p>
+                <p class="parrafo">El tratamiento reductor de grasa y volumen Hidrolipoclasia elimina de forma duradera</p>
 
                 <button class="boton"><strong>Más información</strong></</button>
 
@@ -93,7 +93,7 @@
 
                 <h4><strong>Depilación láser dorsales</strong></h4>
 
-                <p class="parr">Elimina el incomodo vello de la parte superior de la espalda gracias a la depilación láser</p>
+                <p class="parrafo">Elimina el incomodo vello de la parte superior de la espalda gracias a la depilación láser</p>
 
                 <button class="boton"><strong>Más información</strong></</button>
 
@@ -111,7 +111,7 @@
 
                 <h4><strong>Accent Prime Corporal</strong></h4>
 
-                <p class="parr">Combina dos tecnologías: los ultrasonidos y la radiofrecuencia más potente del mercado</p>
+                <p class="parrafo">Combina dos tecnologías: los ultrasonidos y la radiofrecuencia más potente del mercado</p>
 
                 <button class="boton"><strong>Más información</strong></</button>
 
@@ -123,7 +123,7 @@
 
                 <h4><strong>Depilación láser tórax</strong></h4>
 
-                <p class="parr">La depilación láser del tórax te ayudará, en sesiones de 30 a 40 minutos</p>
+                <p class="parrafo">La depilación láser del tórax te ayudará, en sesiones de 30 a 40 minutos</p>
 
                 <button class="boton"><strong>Más información</strong></</button>
 
@@ -135,7 +135,7 @@
 
                 <h4><strong>Relleno de Ojeras</strong></h4>
 
-                <p class="parr">El tratamiento que reduce o elimina las ojeras provocadas por el cansancio.</p>
+                <p class="parrafo">El tratamiento que reduce o elimina las ojeras provocadas por el cansancio.</p>
 
                 <button class="boton"><strong>Más información</strong></</button>
 
@@ -153,7 +153,7 @@
 
                 <h4><strong>Hilos Redensify</strong></h4>
 
-                <p class="parr">Tratamiento antiedad, rellenador de arrugas y redensificador, sin agujas, que mejora las arrugas</p>
+                <p class="parrafo">Tratamiento antiedad, rellenador de arrugas y redensificador, sin agujas, que mejora las arrugas</p>
 
                 <button class="boton"><strong>Más información</strong></</button>
 
@@ -165,7 +165,7 @@
 
                 <h4><strong>Ajuste linea de flequillo</strong></h4>
 
-                <p class="parr">Reajusta tu linea de flequillo y suelta tu melena al viento. La primera consulta es
+                <p class="parrafo">Reajusta tu linea de flequillo y suelta tu melena al viento. La primera consulta es
                     gratuita</p>
 
                 <button class="boton"><strong>Más información</strong></</button>
@@ -178,7 +178,7 @@
 
                 <h4><strong>Depilacion cejas</strong></h4>
 
-                <p class="parr">Estrena cejas contorneadas gracias a nuestros especialistas cualificados y a buenos
+                <p class="parrafo">Estrena cejas contorneadas gracias a nuestros especialistas cualificados y a buenos
                     precios.</p>
 
                 <button class="boton"><strong>Más información</strong></</button>
@@ -199,7 +199,7 @@
 
                 <h4><strong>Intradermis Revitalizante</strong></h4>
 
-                <p class="parr">Bioestimulación indolora que aporta una combinación de vitaminas y Ácido Hialurónico</p>
+                <p class="parrafo">Bioestimulación indolora que aporta una combinación de vitaminas y Ácido Hialurónico</p>
 
                 <button class="boton"><strong>Más información</strong></</button>
 
@@ -211,7 +211,7 @@
 
                 <h4><strong>Crema Post Láser Corporal</strong></h4>
 
-                <p class="parr">Crema que revitaliza la piel y reestablece y recupera parte del colageno natural.</p>
+                <p class="parrafo">Crema que revitaliza la piel y reestablece y recupera parte del colageno natural.</p>
 
                 <button class="boton"><strong>Más información</strong></</button>
 
@@ -223,7 +223,7 @@
 
                 <h4><strong>Hidrolipoclasia</strong></h4>
 
-                <p class="parr">El tratamiento reductor de grasa y volumen Hidrolipoclasia elimina de forma duradera la
+                <p class="parrafo">El tratamiento reductor de grasa y volumen Hidrolipoclasia elimina de forma duradera la
                     grasa</p>
 
                 <button class="boton"><strong>Más información</strong></</button>
@@ -242,7 +242,7 @@
 
                 <h4><strong>Crema antiarrugas</strong></h4>
 
-                <p class="parr">Crema con colageno que ayuda a prevenir las arrugas (usar por las noches).</p>
+                <p class="parrafo">Crema con colageno que ayuda a prevenir las arrugas (usar por las noches).</p>
 
                 <button class="boton"><strong>Más información</strong></</button>
 
@@ -254,7 +254,7 @@
 
                 <h4><strong>Reconstitucion alimentaria</strong></h4>
 
-                <p class="parr">Nuestros especialistas en nutricion te ayudaran a escoger la mejor dieta segun tus
+                <p class="parrafo">Nuestros especialistas en nutricion te ayudaran a escoger la mejor dieta segun tus
                     objetivos esteticos.</p>
 
                 <button class="boton"><strong>Más información</strong></</button>
@@ -267,7 +267,7 @@
 
                 <h4><strong>TOTAL FACE 4D </strong></h4>
 
-                <p class="parr">TOTAL FACE 4D es un tratamiento en alianza con Germaine de Capuccini</p>
+                <p class="parrafo">TOTAL FACE 4D es un tratamiento en alianza con Germaine de Capuccini</p>
 
                 <button class="boton"><strong>Más información</strong></</button>
 

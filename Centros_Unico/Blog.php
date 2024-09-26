@@ -27,13 +27,13 @@
 
     
         <div class="container">
-            <div class="seccion1">
-                <img class="fotoart1" src="img/acidoh.jpg" alt="" />
+            <div class="seccion">
+                <img class="fotoart" src="img/acidoh.jpg" alt="" />
                 <a href="#"></a>
 
-                <h2 class="h31">Tratamientos dermoesteticos que funcionan</h2>
+                <h2>Tratamientos dermoesteticos que funcionan</h2>
 
-                <p class="p1">
+                <p>
                     Está claro que los milagros en estética no existen, pero
                     determinados tratamientos consiguen resultados eficaces. Miembros
                     del Grupo Español de Dermatología Estética y Terapéutica (Gedet) de
@@ -44,15 +44,15 @@
                 </p>
             </div>
 
-            <div class="seccion1">
-                <img class="fotoart2" src="img/revision.jpg" alt="" />
+            <div class="seccion">
+                <img class="fotoart1" src="img/revision.jpg" alt="" />
                 <a href="#"></a>
 
-                <h2 class="h32">
+                <h2>
                     ¿Como prevenir las manchas y lesiones en el verano?
                 </h2>
 
-                <p class="p2">
+                <p>
                     Aunque es muy obvio, lo principal para combatir las manchas es usar
                     protector solar. Usa el que más se ajuste a tu tipo de piel.
                     Aplí­catelo 30 minutos antes de exponerte al sol, tras estar en
@@ -64,13 +64,13 @@
                 </p>
             </div>
 
-            <div class="seccion1">
-                <img class="fotoart3" src="img/crema.jpg" alt="" />
+            <div class="seccion">
+                <img class="fotoart" src="img/crema.jpg" alt="" />
                 <a href="#"></a>
 
-                <h2 class="h33">Descubre cual es tu tratamiento ideal</h2>
+                <h2>Descubre cual es tu tratamiento ideal</h2>
 
-                <p class="p3">
+                <p>
                     <a class="a1" href="https://youtu.be/TJcD-ukP1TE?si=Jq8pRKfNKuqAVuv-" target="_blank" onclick><strong><u>CooLifting:</u></strong></a>
                     Un tratamiento de cabina no invasivo que nebuliza ácido hialurónico
                     en la cara para activar la hidratación en la epidermis, devolviendo
@@ -89,15 +89,15 @@
                 </p>
             </div>
 
-            <div class="seccion1">
-                <img class="fotoart4" src="img/intervencion.jpg" alt="" />
+            <div class="seccion">
+                <img class="fotoart1" src="img/intervencion.jpg" alt="" />
                 <a href="#"></a>
 
                 <h2 class="h34">
                     ¿Como asesorarse en cuanto a intervenciones esteticas?
                 </h2>
 
-                <p class="p4">
+                <p>
                     Si estás considerando someterte a una intervención estética, es
                     importante que te asesores adecuadamente para tomar una decisión
                     informada. En España, algunas operaciones de cirugía plástica pueden
