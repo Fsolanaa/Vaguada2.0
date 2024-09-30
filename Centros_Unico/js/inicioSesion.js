@@ -1,19 +1,19 @@
-const diagnosticoGratuito = document.getElementById('cajaContacto');
-const btnCerrarDiagnostico = document.getElementById('closeDiagnostico');
+const btnSesion = document.getElementById('btnSesion');
+ const btnCerrarInicioSesion = document.getElementById('cerrarInicioSesion');
 
-diagnosticoGratuito.addEventListener('click', mostrarDiagnostico);
-btnCerrarDiagnostico.addEventListener('click', cerrarDiagnostico);
+btnSesion.addEventListener('click', mostrarInicioSesion);
+btnCerrarInicioSesion.addEventListener('click', cerrarInicioSesion);
 
-function mostrarDiagnostico() {
-    document.getElementById("formulario").style.display = "block";
+function mostrarInicioSesion() {
+    document.getElementById("formInicioSesion").style.display = "block";
     document.getElementById("cuerpo").style.filter = "blur(5px)";
     document.getElementById("header").style.filter = "blur(5px)";
     document.getElementById("nav").style.filter = "blur(5px)";
     document.getElementById("cajaContacto").style.filter = "blur(5px)";
 }
 
-function cerrarDiagnostico() {
-    document.getElementById("formulario").style.display = "none";
+ function cerrarInicioSesion() {
+    document.getElementById("formInicioSesion").style.display = "none";
     document.getElementById("cuerpo").style.filter = "none";
     document.getElementById("header").style.filter = "none";
     document.getElementById("nav").style.filter = "none";

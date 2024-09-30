@@ -6,7 +6,7 @@
             </a>
         </div>
         <div class="botonesHeader">
-            <a href="#" class="perfil">
+            <a href="#" class="perfil" id="btnSesion">
                 <i class="fa-solid fa-user"></i>
             </a>
             <a href="#" class="cesta">
@@ -47,4 +47,3 @@
         <!-- </a> -->
         </div>
     </div>
-

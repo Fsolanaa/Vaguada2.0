@@ -1,0 +1,126 @@
+.login-box {
+  display: none;
+  z-index: 150;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  margin: 20px auto;
+  transform: translate(-50%, -55%);
+  background: rgb(255, 255, 255);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+  border-radius: 10px;
+}
+
+.login-box p:first-child {
+  margin: 0 0 30px;
+  padding: 0;
+  color: rgb(255, 98, 0);
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: rgb(255, 127, 50);
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid rgb(255, 127, 50);
+  outline: none;
+  background: transparent;
+}
+
+.login-box .user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: rgb(255, 127, 50);
+  pointer-events: none;
+  transition: .5s;
+}
+
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
+  top: -20px;
+  left: 0;
+  color: rgb(255, 127, 50);
+  font-size: 12px;
+}
+
+.login-box form a {
+  border: 2px solid rgb(255, 127, 50);
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  font-weight: bold;
+  color: rgb(255, 127, 50);
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 3px;
+  border-radius: 5px;
+}
+
+.login-box a:hover {
+  
+  background: rgb(255, 127, 50);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.login-box a span {
+  position: absolute;
+  display: block;
+}
+
+
+.login-box p:last-child {
+  color: rgb(255, 127, 50);
+  font-size: 14px;
+}
+
+.login-box a.a2 {
+  color: rgb(255, 127, 50);
+  text-decoration: none;
+}
+
+.login-box a.a2:hover {
+  background: transparent;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+/*Estilos btn cerrar formulario*/
+.btncerrar {
+  width: 7%;
+  height: 7%;
+  position: absolute;
+  z-index: 30;
+  right: 3%;
+  top: 1%;
+  overflow: hidden;
+}
+
+.btncerrar:hover {
+  cursor: pointer;
+}
+
+.btncerrar img {
+  width: 98%;
+  margin-top: 7%;
+}

@@ -69,7 +69,7 @@ header .botonesHeader i{
   flex-direction: column;
   justify-content: space-around;
   align-content: space-around;
-  color: #ff7f32;
+  color: rgb(255, 127, 50);
   transform: scale(1.5);
   transition: 0.3s;
 }

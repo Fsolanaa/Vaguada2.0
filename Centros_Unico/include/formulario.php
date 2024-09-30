@@ -3,7 +3,7 @@
     <form id="form" action="https://formsubmit.co/fsolanaaranega@gmail.com" method="POST">
         <!-- <a href="#" onclick="cerrarFormulario()"> -->
             <!-- CERRAR FORMULARIO -->
-            <div class="cerrar" id="cerrar">
+            <div class="cerrar" id="closeDiagnostico">
                 <img src="img/cerrar.png" alt="cerrar" />
             </div>
         <!-- </a> -->

@@ -8,8 +8,10 @@
     <link rel="stylesheet" href="styles/formulario2.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="styles/comun.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="styles/index.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="styles/formInicio.css?v=<?php echo time(); ?>">
     <link rel="shortcut icon" href="img/iconCentrosUnico.png" />
     <script src="js/contacto.js" defer></script>
+    <script src="js/inicioSesion.js" defer></script>
     
     <title>Document</title>
 
@@ -24,7 +26,9 @@
     <?php
     include "./include/formulario.php";
     ?>
-
+    <?php
+    include "./include/formInicio.php";
+    ?>
     <main id="cuerpo">
 
         <!-- Aqui empieza el slider -->
