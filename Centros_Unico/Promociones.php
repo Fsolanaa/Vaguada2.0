@@ -44,7 +44,12 @@
                 <p class="parrafo">Si no sabes que regalar, una tarjeta regalo puede ser tu mejor decision para esa persona
                     tan especial.</p>
 
-                <button class="boton"><strong>Más información</strong></</button>
+                    <button class="pushable">
+                    <span class="shadow"></span>
+                    <span class="edge"></span>
+                    <span class="front"> Más información </span>
+                    </button>
+
 
             </div>
 
@@ -56,7 +61,11 @@
 
                 <p class="parrafo">Estrena gluteos gracias a nuestros especialistas cualificados y a buenos precios.</p>
 
-                <button class="boton"><strong>Más información</strong></</button>
+                <button class="pushable">
+                    <span class="shadow"></span>
+                    <span class="edge"></span>
+                    <span class="front"> Más información </span>
+                    </button>
 
             </div>
 
@@ -68,7 +77,11 @@
 
                 <p class="parrafo">Estrena gluteos gracias a nuestros especialistas cualificados y a buenos precios.</p>
 
-                <button class="boton"><strong>Más información</strong></</button>
+                <button class="pushable">
+                    <span class="shadow"></span>
+                    <span class="edge"></span>
+                    <span class="front"> Más información </span>
+                    </button>
 
             </div>
 
@@ -81,7 +94,11 @@
                 <p class="parrafo">Rellenado de arrugas sin agujas.Trabaja el fotoenvejecimiento unificando el tono de la
                     piel.</p>
 
-                <button class="boton"><strong>Más información</strong></</button>
+                    <button class="pushable">
+                    <span class="shadow"></span>
+                    <span class="edge"></span>
+                    <span class="front"> Más información </span>
+                    </button>
 
             </div>
         </section>
