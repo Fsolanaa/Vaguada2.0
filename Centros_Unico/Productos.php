@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/formulario2.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="styles/comun.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="styles/productos.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="styles/footer.css?v=<?php echo time(); ?>">
     <link rel="shortcut icon" href="img/iconCentrosUnico.png" />
     <script src="js/contacto.js" defer></script>
 
@@ -71,7 +72,11 @@
                     tan especial.</p>
 
                 <a href="#" onclick="cesta()">
-                    <button class="boton"><strong>Más información</strong></</button>
+                <button class="pushable">
+                    <span class="shadow"></span>
+                    <span class="edge"></span>
+                    <span class="front"> Más información </span>
+                    </button>
                 </a>
 
             </div>
@@ -84,7 +89,11 @@
 
                 <p class="parrafo">El tratamiento reductor de grasa y volumen Hidrolipoclasia elimina de forma duradera</p>
 
-                <button class="boton"><strong>Más información</strong></</button>
+                <button class="pushable">
+                    <span class="shadow"></span>
+                    <span class="edge"></span>
+                    <span class="front"> Más información </span>
+                    </button>
 
             </div>
 
@@ -96,7 +105,11 @@
 
                 <p class="parrafo">Elimina el incomodo vello de la parte superior de la espalda gracias a la depilación láser</p>
 
-                <button class="boton"><strong>Más información</strong></</button>
+                <button class="pushable">
+                    <span class="shadow"></span>
+                    <span class="edge"></span>
+                    <span class="front"> Más información </span>
+                    </button>
 
             </div>
 
@@ -114,7 +127,11 @@
 
                 <p class="parrafo">Combina dos tecnologías: los ultrasonidos y la radiofrecuencia más potente del mercado</p>
 
-                <button class="boton"><strong>Más información</strong></</button>
+                <button class="pushable">
+                    <span class="shadow"></span>
+                    <span class="edge"></span>
+                    <span class="front"> Más información </span>
+                    </button>
 
             </div>
 
@@ -126,7 +143,11 @@
 
                 <p class="parrafo">La depilación láser del tórax te ayudará, en sesiones de 30 a 40 minutos</p>
 
-                <button class="boton"><strong>Más información</strong></</button>
+                <button class="pushable">
+                    <span class="shadow"></span>
+                    <span class="edge"></span>
+                    <span class="front"> Más información </span>
+                    </button>
 
             </div>
 
@@ -138,8 +159,11 @@
 
                 <p class="parrafo">El tratamiento que reduce o elimina las ojeras provocadas por el cansancio.</p>
 
-                <button class="boton"><strong>Más información</strong></</button>
-
+                <button class="pushable">
+                    <span class="shadow"></span>
+                    <span class="edge"></span>
+                    <span class="front"> Más información </span>
+                    </button>
             </div>
 
 
@@ -156,7 +180,11 @@
 
                 <p class="parrafo">Tratamiento antiedad, rellenador de arrugas y redensificador, sin agujas, que mejora las arrugas</p>
 
-                <button class="boton"><strong>Más información</strong></</button>
+                <button class="pushable">
+                    <span class="shadow"></span>
+                    <span class="edge"></span>
+                    <span class="front"> Más información </span>
+                    </button>
 
             </div>
             
@@ -169,7 +197,11 @@
                 <p class="parrafo">Reajusta tu linea de flequillo y suelta tu melena al viento. La primera consulta es
                     gratuita</p>
 
-                <button class="boton"><strong>Más información</strong></</button>
+                    <button class="pushable">
+                    <span class="shadow"></span>
+                    <span class="edge"></span>
+                    <span class="front"> Más información </span>
+                    </button>
 
             </div>
 
@@ -182,7 +214,11 @@
                 <p class="parrafo">Estrena cejas contorneadas gracias a nuestros especialistas cualificados y a buenos
                     precios.</p>
 
-                <button class="boton"><strong>Más información</strong></</button>
+                    <button class="pushable">
+                    <span class="shadow"></span>
+                    <span class="edge"></span>
+                    <span class="front"> Más información </span>
+                    </button>
 
             </div>
 
@@ -202,7 +238,11 @@
 
                 <p class="parrafo">Bioestimulación indolora que aporta una combinación de vitaminas y Ácido Hialurónico</p>
 
-                <button class="boton"><strong>Más información</strong></</button>
+                <button class="pushable">
+                    <span class="shadow"></span>
+                    <span class="edge"></span>
+                    <span class="front"> Más información </span>
+                    </button>
 
             </div>
 
@@ -214,7 +254,11 @@
 
                 <p class="parrafo">Crema que revitaliza la piel y reestablece y recupera parte del colageno natural.</p>
 
-                <button class="boton"><strong>Más información</strong></</button>
+                <button class="pushable">
+                    <span class="shadow"></span>
+                    <span class="edge"></span>
+                    <span class="front"> Más información </span>
+                    </button>
 
             </div>
 
@@ -227,7 +271,11 @@
                 <p class="parrafo">El tratamiento reductor de grasa y volumen Hidrolipoclasia elimina de forma duradera la
                     grasa</p>
 
-                <button class="boton"><strong>Más información</strong></</button>
+                    <button class="pushable">
+                    <span class="shadow"></span>
+                    <span class="edge"></span>
+                    <span class="front"> Más información </span>
+                    </button>
 
             </div>
 
@@ -237,7 +285,7 @@
         
         <section class="medicina">
 
-            <div class="marco1">
+            <div class="marco">
 
                 <img class="fotp" src="img/producto2_index.jpg" alt="crema-antiarrugas-coalgeno-centros-unico">
 
@@ -245,11 +293,15 @@
 
                 <p class="parrafo">Crema con colageno que ayuda a prevenir las arrugas (usar por las noches).</p>
 
-                <button class="boton"><strong>Más información</strong></</button>
+                <button class="pushable">
+                    <span class="shadow"></span>
+                    <span class="edge"></span>
+                    <span class="front"> Más información </span>
+                    </button>
 
             </div>
 
-            <div class="marco1">
+            <div class="marco">
 
                 <img class="fotp" src="img/producto2MEDI.jpg" alt="nutricion-dieta-esteticos-objetivos-centros-unico">
 
@@ -258,11 +310,15 @@
                 <p class="parrafo">Nuestros especialistas en nutricion te ayudaran a escoger la mejor dieta segun tus
                     objetivos esteticos.</p>
 
-                <button class="boton"><strong>Más información</strong></</button>
+                    <button class="pushable">
+                    <span class="shadow"></span>
+                    <span class="edge"></span>
+                    <span class="front"> Más información </span>
+                    </button>
 
             </div>
 
-            <div class="marco1">
+            <div class="marco">
 
                 <img class="fotp" src="img/producto2ESTETICA.jpg" alt="germaine-capuccini-centros-unico">
 
@@ -270,7 +326,11 @@
 
                 <p class="parrafo">TOTAL FACE 4D es un tratamiento en alianza con Germaine de Capuccini</p>
 
-                <button class="boton"><strong>Más información</strong></</button>
+                <button class="pushable">
+                    <span class="shadow"></span>
+                    <span class="edge"></span>
+                    <span class="front"> Más información </span>
+                    </button>
 
             </div>
 
