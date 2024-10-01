@@ -9,7 +9,7 @@
             <a href="#" class="perfil" id="btnSesion">
                 <i class="fa-solid fa-user"></i>
             </a>
-            <a href="#" class="cesta">
+            <a href="#" class="cesta" id="btnRegistro">
                 <i class="fa-solid fa-basket-shopping"></i>
             </a>
         </div>
