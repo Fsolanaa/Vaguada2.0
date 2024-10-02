@@ -20,6 +20,6 @@
             Entrar
         </a>
     </form>
-    <p>Don't have an account? <a href="#" class="a2">Sign up!</a></p>
+    <p>¿No tienes una cuenta?<a href="#" class="a2" id="btnRegistro">¡Registrate!</a></p>
 
 </div>
