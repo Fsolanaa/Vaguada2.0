@@ -35,6 +35,6 @@
             Crear cuenta
         </a>
     </form>
-    <p>¿Ya tienes una cuenta? <a href="#" class="a2">Inicia sesión</a></p>
+    <p>¿Ya tienes una cuenta? <a href="#" class="a2" id="btnInicio">Inicia sesión</a></p>
 
 </div>

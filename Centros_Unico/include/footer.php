@@ -7,11 +7,11 @@
 
             <div class="footer-links">
 
-                <h4>Compañia</h4>
+                <h4>Compañía</h4>
                 <ul>
                     <li><a href="#">Nosotros</a></li>
                     <li><a href="#">Nuestros servicios</a></li>
-                    <li><a href="#">Politica de privacidad</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
                     <li><a href="#">Trabaja con nosotros</a></li>
                 </ul>
             </div>
@@ -22,7 +22,7 @@
                 <ul>
                     <li><a href="#">Preguntas frecuentes</a></li>
                     <li><a href="#">Compras</a></li>
-                    <li><a href="#">Envios</a></li>
+                    <li><a href="#">Envíos</a></li>
                     <li><a href="#">Estatus de orden</a></li>
                     <li><a href="#">Pago</a></li>
                 </ul>
@@ -42,7 +42,7 @@
 
             <div class="footer-links">
 
-                <h4>Siguenos</h4>
+                <h4>Síguenos</h4>
                 <div class="social-link">
                     <a href="https://www.facebook.com/CentrosUnico" target="_blank" onclick>
                         <i class="fab fa-facebook-f"></i>
