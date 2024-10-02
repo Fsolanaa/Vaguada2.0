@@ -192,7 +192,7 @@ footer{
   top: auto;
   height: fit-content;
   background-color: #24262b;
-  padding: 80px 0;
+  padding: 40px 0;
 }
 
 .container{
@@ -230,7 +230,7 @@ footer{
   display: flex;
   justify-content: center;
   margin-bottom: 15px;
-  transition: all .3s ease;
+  transition: all .1.5s ease;
 }
 
 .footer-links ul li a:hover{
@@ -255,18 +255,20 @@ footer{
   align-content: space-around;
   min-height: 40px;
   width: 40px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #ff7f32;
   margin: 0 10px 10px 0;
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
-  color: #FFFFFF;
+  color: #24262b;
   transition: all .5s ease;
   text-decoration: none;
 }
 
 .social-link a:hover{
-  background-color: #ff7f32;
+  background-color: #24262b;
+  box-shadow: 0px 0px 10px #e8e8e8;
+  color:#ff7f32;
 }
 
 /* MEDIA FOOTER */
@@ -339,6 +341,7 @@ footer{
     padding: 0 2px;
     width: 20px;
   }
+
 }
 
 @media(min-width:350px){
