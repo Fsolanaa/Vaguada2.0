@@ -5,13 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="shortcut icon" href="img/iconCentrosUnico.png" />
     <link rel="stylesheet" href="styles/formulario2.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="styles/comun.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="styles/promociones.css?v=<?php echo time(); ?>">
-    <link rel="shortcut icon" href="img/iconCentrosUnico.png" />
+    <link rel="stylesheet" href="styles/formInicio.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="styles/formRegistro.css?v=<?php echo time(); ?>">
     <script src="js/contacto.js" defer></script>
+    <script src="js/formularios.js" defer></script>
+    <script src="js/logicaForms.js" defer></script>
 
-    <title>Document</title>
+    <title>Promociones</title>
 </head>
 
 <body>

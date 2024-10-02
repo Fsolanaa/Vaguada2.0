@@ -6,6 +6,7 @@
   font-family: "Montserrat", sans-serif;
 }
 
+/* SCROLLBAR */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -26,7 +27,7 @@ li{
   list-style: none;
 }
 
-/* ESTILOS HEADER */
+/* HEADER */
 header {
   height: 65px;
   display: flex;
@@ -96,7 +97,7 @@ header .botonesHeader i:hover{
   transition: 0.3s;
 }
 
-/* ESTILOS NAV */
+/* NAV */
 
 nav {
   width: 100%;
@@ -148,7 +149,7 @@ nav ul li:hover {
   background-color: #e8c39e;
 }
 
-/* ESTILOS FORMULARIO CONTACTO */
+/* FORMULARIO CONTACTO */
 
 #cajaContacto {
   width: 100%;
@@ -201,7 +202,7 @@ nav ul li:hover {
   padding: 0 5px;
 }
 
-/* De aqui para abajo empieza el footer */
+/* FOOTER */
 
 footer{
   position: relative;
@@ -287,19 +288,13 @@ footer{
   color:#ff7f32;
 }
 
-/* MEDIA FOOTER */
+/* MEDIA HEADER */
 
-@media(max-width:991px){
-  .footer-row{
-      text-align: center;
+@media(max-width:750px){
+  header .logo img {
+    width: 150px;
+    padding: 5px;
   }
-
-
-  .footer-links{
-      width: 100%;
-      margin-bottom: 30px;
-  }
-
 }
 
 /* MEDIA NAV */
@@ -337,7 +332,6 @@ footer{
       font-weight: bold;
       font-size: 12.5px;
       text-align: center;
-
     }
 }
 
@@ -397,12 +391,15 @@ footer{
   }
 }
 
+/* MEDIA FOOTER */
 
-/* MEDIA HEADER */
+@media(max-width:991px){
+  .footer-row{
+      text-align: center;
+  }
 
-@media(max-width:750px){
-  header .logo img {
-    width: 150px;
-    padding: 5px;
+  .footer-links{
+      width: 100%;
+      margin-bottom: 30px;
   }
 }

@@ -8,13 +8,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="shortcut icon" href="img/iconCentrosUnico.png" />
     <link rel="stylesheet" href="styles/formulario2.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="styles/comun.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="styles/nuestroEquipo.css?v=<?php echo time(); ?>" />
-    <link rel="shortcut icon" href="img/iconCentrosUnico.png" />
+    <link rel="stylesheet" href="styles/formInicio.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="styles/formRegistro.css?v=<?php echo time(); ?>">
     <script src="js/contacto.js" defer></script>
-
-    <title>Document</title>
+    <script src="js/formularios.js" defer></script>
+    <script src="js/logicaForms.js" defer></script>
+    
+    <title>Equipo</title>
 </head>
 
 <body>
