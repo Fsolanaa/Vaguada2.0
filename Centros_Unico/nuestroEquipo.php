@@ -15,10 +15,15 @@
     <link rel="stylesheet" href="styles/formInicio.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="styles/formRegistro.css?v=<?php echo time(); ?>">
     <script src="js/contacto.js" defer></script>
+<<<<<<< Updated upstream
     <script src="js/formularios.js" defer></script>
     <script src="js/logicaForms.js" defer></script>
     
     <title>Equipo</title>
+=======
+
+    <title>Nuestro equipo</title>
+>>>>>>> Stashed changes
 </head>
 
 <body>
@@ -40,26 +45,34 @@
 
         <div class="nosotros">
             <div class="marco">
-                <img class="foto" src="img/dianmitarafi.png" alt="Rafa" />
-               <p><strong>Rafita el DINAMITA</strong></p> 
-               <p>Rafael Montes</p>
+                <img class="foto" src="img/Foto_Rafa.jpg" alt="Rafa" />
+              <h3>Rafael montes</h3>
+               
                <p>Desarrollador web</p>
             </div>
 
             <div class="marco">
                 <img class="foto" src="img/pistachinelespadachin.png" alt="Paco" />
-                <p><strong>Pistachín el Espadachín</strong></p>
-                <p>Paco Solana </p>
+                
+                <h3>Paco Solana </h3>
                 <p>Desarrollador web y diseñador</p>
 
             </div>
 
             <div class="marco">
                 <img class="foto" src="img/chipi.webp" alt="Juan" />
-               <p><strong>ER CHIPIRÓN </strong></p> 
-                <p>Juan Esteban</p>
-                <p>Desarrolador web</p>
+               
+                <h3>Juan Esteban</h3>
+                <p>Desarrollador web</p>
             </div>
+
+            <div class="marco">
+                <img class="foto" src="img/Foto_marcos.JPG" alt="Juan" />
+               
+                <h3>Juan Esteban</h3>
+                <p>Desarrollador web</p>
+            </div>
+
         </div>
     </main>
 
