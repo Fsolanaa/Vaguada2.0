@@ -15,15 +15,16 @@
 }
 
 #form {
+  width: 40%;
   padding: 50px 55px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   border-radius: 20px;
   text-align: center;
   position: sticky;
   z-index: 220;
-  left: 35%;
+  left: 30%;
   top: auto;
-  width: 30%;
+  
   height: fit-content;
   background-color: #fff;
   overflow: hidden;
@@ -31,7 +32,7 @@
 
 #form .cerrar {
   width: 7%;
-  height: 2.5%;
+  
   position: absolute;
   z-index: 30;
   right: 3%;
@@ -67,7 +68,7 @@
   border-radius: 25px;
   margin-bottom: 15px;
   background-color: #f8f9fa;
-  border: 2px solid #f0faf1;
+  border: 2px solid #d8ddd9;
   color: #283629;
   outline: none;
 }
@@ -106,10 +107,24 @@
 
   #form {
     padding: 50px 30px;
-    width: 100%;
+    width: 80%;
+    left: 10%;
   }
 
   #form input {
     padding: 15px;
   }
+}
+
+@media (max-width: 600px){
+  #formulario {
+    padding: 30px 15px;
+  }
+
+  #form {
+    padding: 50px 30px;
+    width: 98%;
+    left: 1%;
+  }
+
 }
