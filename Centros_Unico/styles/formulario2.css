@@ -6,15 +6,17 @@
   z-index: 150;
   top: 0;
   bottom: 0;
+  padding: 25px 0;
   align-items: center;
   justify-content: center;
   display: none;
-  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 #form {
   padding: 50px 55px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   border-radius: 20px;
   text-align: center;
   position: sticky;
