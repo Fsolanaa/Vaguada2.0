@@ -63,7 +63,7 @@
             </div>
         </div>
 
-        <!-- SECCIÓN DE DEPILACIÓN -->
+       
         <section class="Producto">
             <div class="marco">
 
@@ -116,12 +116,6 @@
 
             </div>
 
-
-
-        </section>
-
-        <section class="Producto">
-
             <div class="marco">
 
                 <img class="fotp" src="img/producto2ESTÉTICA.jpg" alt="centros-unico-accent-prime-corporal-ultrasonidos-radiofrecuencia">
@@ -169,11 +163,6 @@
                     </button>
             </div>
 
-
-
-        </section>
-
-        <section class="Producto">
 
             <div class="marco">
 
@@ -226,12 +215,8 @@
             </div>
 
 
-
-        </section>
-
-
         
-        <section class="estetica">
+        
 
             <div class="marco">
 
@@ -281,12 +266,7 @@
                     </button>
 
             </div>
-
-        </section>
-
-
         
-        <section class="medicina">
 
             <div class="marco">
 
