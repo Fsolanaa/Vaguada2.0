@@ -1,28 +1,33 @@
 <div class="registro-box" id="formRegistro">
     <p>Registrate</p>
-    <form action="#" method="">
+    <form action="#" id="form" method="">
         <div class="btncerrar" id="cerrarRegistro">
             <img src="img/cerrar.png" alt="cerrar" />
         </div>
         <div class="user-box">
-            <input required="" name="nombre" type="text">
+            <input required="" name="nombre" id="nombre" type="text">
             <label>Nombre completo</label>
+            <p id="corregirNombre"></p>
         </div>
         <div class="user-box">
-            <input required="" name="telefono" type="text">
+            <input required="" name="telefono" id="telefono" type="text">
             <label>Telefono</label>
+            <p id="corregirTelefono"></p>
         </div>
         <div class="user-box date">
-            <input required="" name="nacimiento" type="date">
+            <input required="" name="nacimiento" id="nacimiento" type="date">
             <label id="campoFecha">Fecha de nacimiento</label>
+            <p id="corregirFecha"></p>
         </div>
         <div class="user-box">
-            <input required="" name="email" type="text">
+            <input required="" name="email" id="email" type="text">
             <label>Correo electrónico</label>
+            <p id="corregirEmail"></p>
         </div>
         <div class="user-box">
             <input id="password" required="" name="password" type="password">
             <label>Contraseña</label>
+            <p id="corregirContrasena"></p>
             <!-- Añadimos dos div que nos mostrarán la seguridad de la contraseña en tiempo real -->
             <div id="password-strength-meter"></div>
             <div id="password-strength-text"></div>

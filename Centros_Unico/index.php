@@ -14,6 +14,7 @@
     <script src="js/contacto.js" defer></script>
     <script src="js/formularios.js" defer></script>
     <script src="js/logicaForms.js" defer></script>
+    <script src="js/validacionRegistro.js" defer></script>
     
     <title>Inicio</title>
 
