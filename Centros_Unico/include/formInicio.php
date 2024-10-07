@@ -12,13 +12,13 @@
             <input required="" name="password" type="password">
             <label>Contraseña</label>
         </div>
-        <a href="#">
+        <button href="#" id="btnLogin" type="submit">
             <span></span>
             <span></span>
             <span></span>
             <span></span>
             Entrar
-        </a>
+        </button>
     </form>
     <p>¿No tienes una cuenta?<a href="#" class="a2" id="btnRegistro">¡Registrate!</a></p>
 

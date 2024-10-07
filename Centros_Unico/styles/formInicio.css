@@ -59,7 +59,7 @@
   font-size: 12px;
 }
 
-.login-box form a {
+.login-box form button {
   border: 2px solid rgb(255, 127, 50);
   position: relative;
   display: inline-block;
@@ -76,14 +76,14 @@
   border-radius: 5px;
 }
 
-.login-box a:hover {
+.login-box button:hover {
   
   background: rgb(255, 127, 50);
   color: #fff;
   border-radius: 5px;
 }
 
-.login-box a span {
+.login-box button span {
   position: absolute;
   display: block;
 }
@@ -94,12 +94,12 @@
   font-size: 14px;
 }
 
-.login-box a.a2 {
+.login-box .a2 {
   color: rgb(255, 127, 50);
   text-decoration: none;
 }
 
-.login-box a.a2:hover {
+.login-box.a2:hover {
   background: transparent;
   color: rgb(0, 0, 0);
   border-radius: 5px;
