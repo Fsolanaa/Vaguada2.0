@@ -1,98 +1,100 @@
-let form = document.getElementById('form');
+let form = document.getElementById('formularioRegistro');
 
-document.addEventListener('DOMContentLoaded', function(){
+let nombre = document.getElementById('nombre');
+let corregirNombre = document.getElementById('corregirNombre');
 
-    form.addEventListener('submit', corregirValores);
+let telefono = document.getElementById('telefono');
+let corregirTelefono = document.getElementById('corregirTelefono');
 
+let nacimiento = document.getElementById('nacimiento');
+let corregirFecha = document.getElementById('corregirFecha');
+
+let email = document.getElementById('email');
+let corregirEmail = document.getElementById('corregirEmail');
+
+let password = document.getElementById('password');
+let corregirContrasena = document.getElementById('corregirContrasena');
+
+document.addEventListener('DOMContentLoaded', function() {
+    form.addEventListener('submit', validarFormulario);
 });
 
-function corregirValores(evento){
-
+function validarFormulario(evento) {
     evento.preventDefault();
+    let validar = true;  // Esta variable debe resetearse en cada envío del formulario
 
-    let nombre = document.getElementById('nombre');
-    let corregirNombre = document.getElementById('corregirNombre');
+    validar = validarNombre();
+    validar = validarTelefono();
+    validar = validarFecha();
+    validar = validarEmail();
+    validar = validarContrasena();
 
-    let telefono = document.getElementById('telefono');
-    let corregirTelefono = document.getElementById('corregirTelefono');
+    if (validar === true) {
+        form.submit();  // Solo se enviará si todas las validaciones son correctas
+    }
+}
 
-    let nacimiento = document.getElementById('nacimiento');
-    let corregirFecha = document.getElementById('corregirFecha');
-    
-    let email = document.getElementById('email');
-    let corregirEmail = document.getElementById('corregirEmail');
-
-    let password = document.getElementById('password');
-    let corregirContrasena = document.getElementById('corregirContrasena');
-
-    let validar = true;
-
-    if(nombre.value.trim() === "" || !/^[a-zA-Z0-9\s@$!%*?&]{1,25}$/.test(nombre.value)){
-
-        nombre = document.getElementById('nombre').style.border = "1px red solid";
+function validarNombre() {
+    if (nombre.value.trim() === "" || !/^[a-zA-Z0-9\s@$!%*?&]{1,25}$/.test(nombre.value)) {
+        nombre.style.border = "1px solid red";
         corregirNombre.style.color = 'red';
-        corregirNombre.innerHTML = "El nombre debe tener minusculas, mayusculas y sin caracteres especiales";
-        validar = false;
-    }
-    else{
-        nombre = document.getElementById('nombre').style.border = "1px green solid";
+        corregirNombre.innerHTML = "El nombre debe tener entre 1 y 25 caracteres sin caracteres especiales";
+        return false;
+    } else {
+        nombre.style.border = "1px solid green";
         corregirNombre.innerHTML = "";
-        validar = true;
+        return true;
     }
+}
 
-    if(telefono.value.trim() === "" || !/^[0-9]{1,25}$/.test(telefono.value)){
-        telefono = document.getElementById('telefono').style.border = "1px red solid";
+function validarTelefono() {
+    if (telefono.value.trim() === "" || !/^[0-9]{1,25}$/.test(telefono.value)) {
+        telefono.style.border = "1px solid red";
         corregirTelefono.style.color = 'red';
-        corregirTelefono.innerHTML = "El telefono solo debe tener numeros";
-        validar = false;
-    }
-    else{
-        telefono = document.getElementById('telefono').style.border = "1px red solid";
+        corregirTelefono.innerHTML = "El teléfono solo debe tener números y hasta 25 dígitos";
+        return false;
+    } else {
+        telefono.style.border = "1px solid green";
         corregirTelefono.innerHTML = "";
-        validar = true;
+        return true;
     }
+}
 
-    if(nacimiento.value.trim() === ""){
-
-        nacimiento = document.getElementById('nacimiento').style.border = "1px red solid";
+function validarFecha() {
+    if (nacimiento.value.trim() === "") {
+        nacimiento.style.border = "1px solid red";
         corregirFecha.style.color = 'red';
         corregirFecha.innerHTML = "Debes poner una fecha";
-        validar = false;
-    }
-    else{
-        nacimiento = document.getElementById('nacimiento').style.border = "1px green solid";
+        return false;
+    } else {
+        nacimiento.style.border = "1px solid green";
         corregirFecha.innerHTML = "";
-        validar = true;
+        return true;
     }
+}
 
-    if(email.value.trim() === "" || !/^[a-zA-Z0-9\s\.]{1,40}@[a-zA-Z0-9\s\.]{1,25}$/.test(email.value)){
-
-        email = document.getElementById('email').style.border = "1px red solid";
+function validarEmail() {
+    if (email.value.trim() === "" || !/^[a-zA-Z0-9\s\.]{1,40}@[a-zA-Z0-9\s\.]{1,25}$/.test(email.value)) {
+        email.style.border = "1px solid red";
         corregirEmail.style.color = 'red';
-        corregirEmail.innerHTML = "El email debe tener @";
-        validar = false;
-    }
-    else{
-        email = document.getElementById('email').style.border = "1px red solid";
+        corregirEmail.innerHTML = "El email debe ser válido (contener @)";
+        return false;
+    } else {
+        email.style.border = "1px solid green";
         corregirEmail.innerHTML = "";
-        validar = true;
+        return true;
     }
+}
 
-    if(password.value.trim() === "" || !/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{5,}$/.test(password.value)){
-
-        password = document.getElementById('password').style.border = "1px red solid";
+function validarContrasena() {
+    if (password.value.trim() === "" || !/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{5,}$/.test(password.value)) {
+        password.style.border = "1px solid red";
         corregirContrasena.style.color = 'red';
-        corregirContrasena.innerHTML = "La contraseña debe tener 5 caracteres, minusculas, mayusculas, y caracteres especiales";
-        validar = false;
-    }
-    else{
-        password = document.getElementById('password').style.border = "1px red solid";
+        corregirContrasena.innerHTML = "La contraseña debe tener al menos 5 caracteres, minúsculas, mayúsculas, un número y un carácter especial";
+        return false;
+    } else {
+        password.style.border = "1px solid green";
         corregirContrasena.innerHTML = "";
-        validar = true;
+        return true;
     }
-
-    if(validar === true){
-        form.submit();
-    }
-
 }
