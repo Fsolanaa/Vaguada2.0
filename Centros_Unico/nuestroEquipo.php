@@ -15,15 +15,15 @@
     <link rel="stylesheet" href="styles/formInicio.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="styles/formRegistro.css?v=<?php echo time(); ?>">
     <script src="js/contacto.js" defer></script>
-<<<<<<< Updated upstream
+
     <script src="js/formularios.js" defer></script>
     <script src="js/logicaForms.js" defer></script>
     
     <title>Equipo</title>
-=======
+
 
     <title>Nuestro equipo</title>
->>>>>>> Stashed changes
+
 </head>
 
 <body>

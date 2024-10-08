@@ -35,7 +35,7 @@
 
     <main id="cuerpo">
 
-    
+
 
         <!-- EMPIEZA BLOQUE DE CONTENIDO-->
 
@@ -63,7 +63,7 @@
             </div>
         </div>
 
-       
+
         <section class="Producto">
             <div class="marco">
 
@@ -75,10 +75,10 @@
                     tan especial.</p>
 
                 <a href="#" onclick="cesta()">
-                <button class="pushable">
-                    <span class="shadow"></span>
-                    <span class="edge"></span>
-                    <span class="front"> Más información </span>
+                    <button class="pushable">
+                        <span class="shadow"></span>
+                        <span class="edge"></span>
+                        <span class="front"> Más información </span>
                     </button>
                 </a>
 
@@ -96,7 +96,7 @@
                     <span class="shadow"></span>
                     <span class="edge"></span>
                     <span class="front"> Más información </span>
-                    </button>
+                </button>
 
             </div>
 
@@ -112,7 +112,7 @@
                     <span class="shadow"></span>
                     <span class="edge"></span>
                     <span class="front"> Más información </span>
-                    </button>
+                </button>
 
             </div>
 
@@ -128,7 +128,7 @@
                     <span class="shadow"></span>
                     <span class="edge"></span>
                     <span class="front"> Más información </span>
-                    </button>
+                </button>
 
             </div>
 
@@ -144,7 +144,7 @@
                     <span class="shadow"></span>
                     <span class="edge"></span>
                     <span class="front"> Más información </span>
-                    </button>
+                </button>
 
             </div>
 
@@ -160,7 +160,7 @@
                     <span class="shadow"></span>
                     <span class="edge"></span>
                     <span class="front"> Más información </span>
-                    </button>
+                </button>
             </div>
 
 
@@ -176,10 +176,10 @@
                     <span class="shadow"></span>
                     <span class="edge"></span>
                     <span class="front"> Más información </span>
-                    </button>
+                </button>
 
             </div>
-            
+
             <div class="marco">
 
                 <img class="fotp" src="img/intervencion.jpg" alt="flequillo-melena-gratuita-centros-unico">
@@ -189,11 +189,11 @@
                 <p class="parrafo">Reajusta tu linea de flequillo y suelta tu melena al viento. La primera consulta es
                     gratuita</p>
 
-                    <button class="pushable">
+                <button class="pushable">
                     <span class="shadow"></span>
                     <span class="edge"></span>
                     <span class="front"> Más información </span>
-                    </button>
+                </button>
 
             </div>
 
@@ -206,17 +206,17 @@
                 <p class="parrafo">Estrena cejas contorneadas gracias a nuestros especialistas cualificados y a buenos
                     precios.</p>
 
-                    <button class="pushable">
+                <button class="pushable">
                     <span class="shadow"></span>
                     <span class="edge"></span>
                     <span class="front"> Más información </span>
-                    </button>
+                </button>
 
             </div>
 
 
-        
-        
+
+
 
             <div class="marco">
 
@@ -230,7 +230,7 @@
                     <span class="shadow"></span>
                     <span class="edge"></span>
                     <span class="front"> Más información </span>
-                    </button>
+                </button>
 
             </div>
 
@@ -246,7 +246,7 @@
                     <span class="shadow"></span>
                     <span class="edge"></span>
                     <span class="front"> Más información </span>
-                    </button>
+                </button>
 
             </div>
 
@@ -259,14 +259,14 @@
                 <p class="parrafo">El tratamiento reductor de grasa y volumen Hidrolipoclasia elimina de forma duradera la
                     grasa</p>
 
-                    <button class="pushable">
+                <button class="pushable">
                     <span class="shadow"></span>
                     <span class="edge"></span>
                     <span class="front"> Más información </span>
-                    </button>
+                </button>
 
             </div>
-        
+
 
             <div class="marco">
 
@@ -280,7 +280,7 @@
                     <span class="shadow"></span>
                     <span class="edge"></span>
                     <span class="front"> Más información </span>
-                    </button>
+                </button>
 
             </div>
 
@@ -293,11 +293,11 @@
                 <p class="parrafo">Nuestros especialistas en nutricion te ayudaran a escoger la mejor dieta segun tus
                     objetivos esteticos.</p>
 
-                    <button class="pushable">
+                <button class="pushable">
                     <span class="shadow"></span>
                     <span class="edge"></span>
                     <span class="front"> Más información </span>
-                    </button>
+                </button>
 
             </div>
 
@@ -313,7 +313,7 @@
                     <span class="shadow"></span>
                     <span class="edge"></span>
                     <span class="front"> Más información </span>
-                    </button>
+                </button>
 
             </div>
 
@@ -325,7 +325,7 @@
     include "./include/footer.php";
     ?>
 
-    <!-- <script>
+     <script>
         //JAVA que es un lenguaje fuertemente tipado(Cuando pongo una variable tengo que darle un tipo)
 
         function mostrarVentana() {
@@ -362,7 +362,7 @@
         // Por ejemplo, podrías actualizar un contador de productos en el carrito o realizar alguna otra acción.
         alert('Producto agregado al carrito');
         }
-    </script> -->
+    </script>
 </body>
 
 </html>
