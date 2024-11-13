@@ -1,9 +1,5 @@
 <?php
 
-namespace modelo;
-
-use mysqli;
-
 class DBusuario
 {
 
@@ -23,5 +19,13 @@ class DBusuario
             die("Error de conexión :" . $this->conexion->connect_error);
         }
     }
-    
+// Metodos para regiatrar usuario
+    public function registrarUsuario($nombreCompleto, $correo, $telefono, $sexo, $fechaNacimiento, $contrasena){
+
+        $insertar = "INSERT INTO usuarios (nombreCompleto, correo, telefono, sexo, fNacimiento, contrasena) VALUES ('$nombreCompleto', '$correo', '$telefono', '$sexo', '$fechaNacimiento', '$contrasena')";
+
+       $query = mysqli_query($this->conexion,$insertar);
+            
+    }
 }
+?>
