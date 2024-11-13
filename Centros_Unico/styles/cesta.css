@@ -1,4 +1,4 @@
-#cesta {
+#ventanaProducto {
     font-family: Arial, Helvetica, sans-serif;
     width: 80%;
     height: 350px;
@@ -61,4 +61,12 @@
     position: absolute;
     top: 2%;
     left: 97%;
+}
+/*Estilos carrito*/
+#ventanaCarrito{
+    display: none;
+    width: 30%;
+    height: 30%;
+    background-color: #FFFFFF;
+    border-radius: 3%;
 }

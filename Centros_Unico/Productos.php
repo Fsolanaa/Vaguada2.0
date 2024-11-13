@@ -1,3 +1,10 @@
+<?php
+
+require_once("./modelo/DBcatalogo.php");
+$conexion = new \modelo\DBcatalogo;
+$arrayCatalogos = $conexion->obtenerProductos();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,9 +19,14 @@
     <link rel="stylesheet" href="styles/productos.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="styles/formInicio.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="styles/formRegistro.css?v=<?php echo time(); ?>">
+    <script>
+        const arrayCatalogos = "<?php echo $arrayCatalogos ?>";
+    </script>
     <script src="js/contacto.js" defer></script>
     <script src="js/formularios.js" defer></script>
+    <script src="js/carrito.js" defer></script>
     <script src="js/logicaForms.js" defer></script>
+    <script src="js/validacionRegistro.js" defer></script>
 
     <title>Productos</title>
 </head>
@@ -28,9 +40,17 @@
     <?php
     include "./include/formulario.php";
     ?>
-
+    <?php
+    include "./include/formInicio.php";
+    ?>
+    <?php
+    include "./include/formRegistro.php";
+    ?>
     <?php
     include "./include/cesta.php";
+    ?>
+    <?php
+    include "./include/ventanaProducto.php";
     ?>
 
     <main id="cuerpo">
@@ -74,7 +94,7 @@
                 <p class="parrafo">Si no sabes que regalar, una tarjeta regalo puede ser tu mejor decision para esa persona
                     tan especial.</p>
 
-                <a href="#" onclick="cesta()">
+                <a href="#" onclick="abrirVentanaProducto()">
                     <button class="pushable">
                         <span class="shadow"></span>
                         <span class="edge"></span>
@@ -326,7 +346,6 @@
     ?>
 
      <script>
-        //JAVA que es un lenguaje fuertemente tipado(Cuando pongo una variable tengo que darle un tipo)
 
         function mostrarVentana() {
             document.getElementById("formulario").style.display = "block";
@@ -342,24 +361,23 @@
             document.getElementById("nav").style.filter = "none";
             document.getElementById("cajaContacto").style.filter = "none";
         } 
-        function cesta(){
-            document.getElementById("cesta").style.display = "block";
+        function abrirVentanaProducto(){
+            document.getElementById("ventanaProducto").style.display = "block";
             document.getElementById("cuerpo").style.filter = "blur(5px)";
             document.getElementById("header").style.filter = "blur(5px)";
             document.getElementById("nav").style.filter = "blur(5px)";
             document.getElementById("cajaContacto").style.filter = "blur(5px)";
         }
 
-        function ocultarCesta() {
-            document.getElementById("cesta").style.display = "none";
+        function ocultarVentanaProducto() {
+            document.getElementById("ventanaProducto").style.display = "none";
             document.getElementById("cuerpo").style.filter = "none";
             document.getElementById("header").style.filter = "none";
             document.getElementById("nav").style.filter = "none";
             document.getElementById("cajaContacto").style.filter = "none";
         }
         function agregarAlCarrito() {
-        // Aquí puedes agregar la lógica para manejar la acción de agregar al carrito
-        // Por ejemplo, podrías actualizar un contador de productos en el carrito o realizar alguna otra acción.
+        
         alert('Producto agregado al carrito');
         }
     </script>
