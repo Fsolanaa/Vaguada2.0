@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/comun.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="styles/productos.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="styles/formInicio.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="styles/formRegistro.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="styles/productCards.css?v=<?php echo time(); ?>">
 
     <script>
