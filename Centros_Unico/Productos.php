@@ -78,219 +78,7 @@
 
 
         <section class="Producto">
-            <!-- <div class="marco">
-
-                <img class="fotp" src="img/producto2Depi.jpg" alt="centros-unico-depilacion-laser-dorsarles">
-
-                <h4><strong>Depilación láser dorsales</strong></h4>
-
-                <p class="parrafo">Elimina el incomodo vello de la parte superior de la espalda gracias a la depilación láser</p>
-
-                <button class="pushable">
-                    <span class="shadow"></span>
-                    <span class="edge"></span>
-                    <span class="front"> Más información </span>
-                </button>
-
-            </div>
-
-            <div class="marco">
-
-                <img class="fotp" src="img/producto2ESTÉTICA.jpg" alt="centros-unico-accent-prime-corporal-ultrasonidos-radiofrecuencia">
-
-                <h4><strong>Accent Prime Corporal</strong></h4>
-
-                <p class="parrafo">Combina dos tecnologías: los ultrasonidos y la radiofrecuencia más potente del mercado</p>
-
-                <button class="pushable">
-                    <span class="shadow"></span>
-                    <span class="edge"></span>
-                    <span class="front"> Más información </span>
-                </button>
-
-            </div>
-
-            <div class="marco">
-
-                <img class="fotp" src="img/producto3Depi.jpg" alt="centros-unico-depilacion-laser-torax">
-
-                <h4><strong>Depilación láser tórax</strong></h4>
-
-                <p class="parrafo">La depilación láser del tórax te ayudará, en sesiones de 30 a 40 minutos</p>
-
-                <button class="pushable">
-                    <span class="shadow"></span>
-                    <span class="edge"></span>
-                    <span class="front"> Más información </span>
-                </button>
-
-            </div>
-
-            <div class="marco">
-
-                <img class="fotp" src="img/PRODUCTOS4MEDI.jpg" alt="centros-unico-ojeras-relleno-eliminar">
-
-                <h4><strong>Relleno de Ojeras</strong></h4>
-
-                <p class="parrafo">El tratamiento que reduce o elimina las ojeras provocadas por el cansancio.</p>
-
-                <button class="pushable">
-                    <span class="shadow"></span>
-                    <span class="edge"></span>
-                    <span class="front"> Más información </span>
-                </button>
-            </div>
-
-
-            <div class="marco">
-
-                <img class="fotp" src="img/PRODUCTO4ESTETICA.jpg" alt="centros-unico-hilos-redensify-antiedad-arrugas">
-
-                <h4><strong>Hilos Redensify</strong></h4>
-
-                <p class="parrafo">Tratamiento antiedad, rellenador de arrugas y redensificador, sin agujas, que mejora las arrugas</p>
-
-                <button class="pushable">
-                    <span class="shadow"></span>
-                    <span class="edge"></span>
-                    <span class="front"> Más información </span>
-                </button>
-
-            </div>
-
-            <div class="marco">
-
-                <img class="fotp" src="img/intervencion.jpg" alt="flequillo-melena-gratuita-centros-unico">
-
-                <h4><strong>Ajuste linea de flequillo</strong></h4>
-
-                <p class="parrafo">Reajusta tu linea de flequillo y suelta tu melena al viento. La primera consulta es
-                    gratuita</p>
-
-                <button class="pushable">
-                    <span class="shadow"></span>
-                    <span class="edge"></span>
-                    <span class="front"> Más información </span>
-                </button>
-
-            </div>
-
-            <div class="marco">
-
-                <img class="fotp" src="img/revision.jpg" alt="cejas-depilacion-contorno-centros-unico">
-
-                <h4><strong>Depilacion cejas</strong></h4>
-
-                <p class="parrafo">Estrena cejas contorneadas gracias a nuestros especialistas cualificados y a buenos
-                    precios.</p>
-
-                <button class="pushable">
-                    <span class="shadow"></span>
-                    <span class="edge"></span>
-                    <span class="front"> Más información </span>
-                </button>
-
-            </div>
-
-            <div class="marco">
-
-                <img class="fotp" src="img/producto3MEDI.jpg" alt="bioestimulacin-revitalizante-acido-hialunronico-centros-unico">
-
-                <h4><strong>Intradermis Revitalizante</strong></h4>
-
-                <p class="parrafo">Bioestimulación indolora que aporta una combinación de vitaminas y Ácido Hialurónico</p>
-
-                <button class="pushable">
-                    <span class="shadow"></span>
-                    <span class="edge"></span>
-                    <span class="front"> Más información </span>
-                </button>
-
-            </div>
-
-            <div class="marco">
-
-                <img class="fotp" src="img/producto4DEPI.jpg" alt="crema-laser-corporal-centros-unico">
-
-                <h4><strong>Crema Post Láser Corporal</strong></h4>
-
-                <p class="parrafo">Crema que revitaliza la piel y reestablece y recupera parte del colageno natural.</p>
-
-                <button class="pushable">
-                    <span class="shadow"></span>
-                    <span class="edge"></span>
-                    <span class="front"> Más información </span>
-                </button>
-
-            </div>
-
-            <div class="marco">
-
-                <img class="fotp" src="img/PRODUCTO3ESTETICA.jpg" alt="hidrolipoclasia-rductor-grasa-centros-unico">
-
-                <h4><strong>Hidrolipoclasia</strong></h4>
-
-                <p class="parrafo">El tratamiento reductor de grasa y volumen Hidrolipoclasia elimina de forma duradera la
-                    grasa</p>
-
-                <button class="pushable">
-                    <span class="shadow"></span>
-                    <span class="edge"></span>
-                    <span class="front"> Más información </span>
-                </button>
-
-            </div>
-
-
-            <div class="marco">
-
-                <img class="fotp" src="img/producto2_index.jpg" alt="crema-antiarrugas-coalgeno-centros-unico">
-
-                <h4><strong>Crema antiarrugas</strong></h4>
-
-                <p class="parrafo">Crema con colageno que ayuda a prevenir las arrugas (usar por las noches).</p>
-
-                <button class="pushable">
-                    <span class="shadow"></span>
-                    <span class="edge"></span>
-                    <span class="front"> Más información </span>
-                </button>
-
-            </div>
-
-            <div class="marco">
-
-                <img class="fotp" src="img/producto2MEDI.jpg" alt="nutricion-dieta-esteticos-objetivos-centros-unico">
-
-                <h4><strong>Reconstitucion alimentaria</strong></h4>
-
-                <p class="parrafo">Nuestros especialistas en nutricion te ayudaran a escoger la mejor dieta segun tus
-                    objetivos esteticos.</p>
-
-                <button class="pushable">
-                    <span class="shadow"></span>
-                    <span class="edge"></span>
-                    <span class="front"> Más información </span>
-                </button>
-
-            </div>
-
-            <div class="marco">
-
-                <img class="fotp" src="img/producto2ESTETICA.jpg" alt="germaine-capuccini-centros-unico">
-
-                <h4><strong>TOTAL FACE 4D </strong></h4>
-
-                <p class="parrafo">TOTAL FACE 4D es un tratamiento en alianza con Germaine de Capuccini</p>
-
-                <button class="pushable">
-                    <span class="shadow"></span>
-                    <span class="edge"></span>
-                    <span class="front"> Más información </span>
-                </button>
-
-            </div> -->
-
+        
             <!-- 1º TARJETA -->
             <?php
             $data = [
@@ -313,14 +101,134 @@
             ];
             include './include/cardProducto.php';
             ?>
-
+            <!-- 4º TARJETA -->
             <?php
             $data = [
-                'img' => 'img/producto1Depi.png',
-                'titulo' => 'Tarjeta Regalo',
-                'texto' => 'Si no sabes que regalar, una tarjeta regalo puede ser tu mejor decision para esa persona
-                    tan especial.',
-                'coste' => '29.99€'
+                'img' => 'img/producto2Depi.jpg',
+                'titulo' => 'Depilación láser dorsales',
+                'texto' => 'Elimina el incomo vello gracias a la depilación láser',
+                'coste' => '32€'
+            ];
+            include './include/cardProducto.php';
+            ?>
+            <!-- 5º TARJETA -->
+            <?php
+            $data = [
+                'img' => 'img/producto2ESTÉTICA.jpg',
+                'titulo' => 'Accent Prime Corporal ',
+                'texto' => 'Combina dos tecnologías: los ultrasonidos y la radiofrecuencia más potente del mercado',
+                'coste' => '89€'
+            ];
+            include './include/cardProducto.php';
+            ?>
+            <!-- 6º TARJETA -->
+            <?php
+            $data = [
+                'img' => 'img/producto3Depi.jpg',
+                'titulo' => 'Depilación láser tórax',
+                'texto' => 'La depilación láser del tórax te ayudará, en sesiones de 30 a 40 minutos',
+                'coste' => '32€'
+            ];
+            include './include/cardProducto.php';
+            ?>
+            <!-- 7º TARJETA -->
+            <?php
+            $data = [
+                'img' => 'img/PRODUCTOS4MEDI.jpg',
+                'titulo' => 'Relleno de Ojeras',
+                'texto' => 'El tratamiento que reduce o elimina las ojeras provocadas por el cansancio.',
+                'coste' => '49,99€'
+            ];
+            include './include/cardProducto.php';
+            ?>
+            <!-- 8º TARJETA -->
+            <?php
+            $data = [
+                'img' => 'img/PRODUCTO4ESTETICA.jpg',
+                'titulo' => 'Hilos Redensify',
+                'texto' => 'Tratamiento antiedad, rellenador de arrugas y redensificador, sin agujas, que mejora las arrugas',
+                'coste' => '49,99€'
+            ];
+            include './include/cardProducto.php';
+            ?>
+            <!-- 9º TARJETA -->
+            <?php
+            $data = [
+                'img' => 'img/intervencion.jpg',
+                'titulo' => 'Ajuste linea de flequillo',
+                'texto' => 'Reajusta tu linea de flequillo y suelta tu melena al viento.',
+                'coste' => '29,99€'
+            ];
+            include './include/cardProducto.php';
+            ?>
+            <!-- 10º TARJETA -->
+            <?php
+            $data = [
+                'img' => 'img/revision.jpg',
+                'titulo' => 'Depilacion cejas',
+                'texto' => 'Estrena cejas contorneadas gracias a nuestros especialistas cualificados.',
+                'coste' => '19,99€'
+            ];
+            include './include/cardProducto.php';
+            ?>
+            <!-- 11º TARJETA -->
+            <?php
+            $data = [
+                'img' => 'img/producto3MEDI.jpg',
+                'titulo' => 'Intradermis Revitalizante',
+                'texto' => 'Bioestimulación indolora que aporta una combinación de vitaminas y Ácido Hialurónico',
+                'coste' => '49,99€'
+            ];
+            include './include/cardProducto.php';
+            ?>
+            <!-- 12º TARJETA -->
+            <?php
+            $data = [
+                'img' => 'img/producto4DEPI.jpg',
+                'titulo' => 'Crema Post Láser Corporal',
+                'texto' => 'Crema que revitaliza la piel y reestablece y recupera parte del colageno natural.',
+                'coste' => '29,99€'
+            ];
+            include './include/cardProducto.php';
+            ?>
+            <!-- 13º TARJETA -->
+            <?php
+            $data = [
+                'img' => 'img/PRODUCTO3ESTETICA.jpg',
+                'titulo' => 'Hidrolipoclasia',
+                'texto' => 'La Hidrolipoclasia elimina de forma duradera la
+                    grasa',
+                'coste' => '29,99€'
+            ];
+            include './include/cardProducto.php';
+            ?>
+            <!-- 14º TARJETA -->
+            <?php
+            $data = [
+                'img' => 'img/producto2_index.jpg',
+                'titulo' => 'Crema antiarrugas',
+                'texto' => 'Crema con colageno que ayuda a prevenir las arrugas.',
+                'coste' => '29,99€'
+            ];
+            include './include/cardProducto.php';
+            ?>
+            <!-- 15º TARJETA -->
+            <?php
+            $data = [
+                'img' => 'img/producto2MEDI.jpg',
+                'titulo' => 'Reconstitucion alimentaria',
+                'texto' => 'La mejor opción para conseguir tus objetivos estéticos.',
+                'coste' => '50€'
+            ];
+            include './include/cardProducto.php';
+            ?>  
+            <!-- 16º TARJETA -->
+            <?php
+            $data = [
+                'img' => 'img/producto2ESTETICA.jpg',
+                'titulo' => 'TOTAL FACE 4D',
+                'texto' => 'TOTAL FACE 4D es un tratamiento en alianza con Germaine de Capuccini',
+                'coste' => '100€'
             ];
             include './include/cardProducto.php';
             ?>
