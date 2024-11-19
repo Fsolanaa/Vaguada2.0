@@ -44,34 +44,82 @@
         <h1>Nuestro equipo</h1>
 
         <div class="nosotros">
-            <div class="marco">
+            <?php
+                $data = [
+                    'img' => 'img/Foto_Rafa.jpg',
+                    'nombre' => 'Rafael montes',
+                    'texto' => 'Desarrollador web',
+                    'email' => 'mailto:rafaelmontesjimenez@gmail.com',
+                    'github' => 'https://github.com/RMontesJ',
+                    'linkedin' => 'https://www.linkedin.com/in/rafaelmontesjimenez/'
+                ];
+                include './include/cardEquipo.php';
+            ?>
+            <!-- <div class="marco">
                 <img class="foto" src="img/Foto_Rafa.jpg" alt="Rafa" />
               <h3>Rafael montes</h3>
                
                <p>Desarrollador web</p>
-            </div>
+            </div> -->
 
-            <div class="marco">
+
+            <?php
+                $data = [
+                    'img' => 'img/pistachinelespadachin.png',
+                    'nombre' => 'Paco Solana',
+                    'texto' => 'Desarrollador web y diseñador',
+                    'email' => 'mailto:bios0179@gmail.com',
+                    'github' => 'https://github.com/Fsolanaa',
+                    'linkedin' => 'https://www.linkedin.com/in/francisco-jos%C3%A9-solana-dev/'
+                ];
+                include './include/cardEquipo.php';
+            ?>
+            
+            <!-- <div class="marco">
                 <img class="foto" src="img/pistachinelespadachin.png" alt="Paco" />
                 
-                <h3>Paco Solana </h3>
+                <h3>Paco Solana</h3>
                 <p>Desarrollador web y diseñador</p>
 
-            </div>
+            </div> -->
 
-            <div class="marco">
+            <?php
+                $data = [
+                    'img' => 'img/chipi.webp',
+                    'nombre' => 'Juan Esteban',
+                    'texto' => 'Desarrollador web y back-end',
+                    'email' => 'mailto:jestebanl2004@gmail.com',
+                    'github' => 'https://github.com/Jestebanl',
+                    'linkedin' => 'https://www.linkedin.com/in/juan-esteban-l%C3%B3pez-702607297/'
+                ];
+                include './include/cardEquipo.php';
+            ?>
+
+            <!-- <div class="marco">
                 <img class="foto" src="img/chipi.webp" alt="Juan" />
                
                 <h3>Juan Esteban</h3>
                 <p>Desarrollador web</p>
-            </div>
+            </div> -->
 
-            <div class="marco">
-                <img class="foto" src="img/Foto_marcos.JPG" alt="Juan" />
+            <?php
+                $data = [
+                    'img' => 'img/Foto_marcos.png',
+                    'nombre' => 'Marcos Fernandez',
+                    'texto' => 'Desarrollador web y back-end',
+                    'email' => 'mailto:fernandemarcos11@gmail.com',
+                    'github' => 'https://github.com/mfernandez69',
+                    'linkedin' => 'https://www.linkedin.com/in/marcos-fernandez-nu%C3%B1ez/'
+                ];
+                include './include/cardEquipo.php';
+            ?>
+
+            <!-- <div class="marco">
+                <img class="foto" src="img/Foto_marcos.png" alt="Marcos" />
                
-                <h3>Juan Esteban</h3>
-                <p>Desarrollador web</p>
-            </div>
+                <h3>Marcos Fernandez</h3>
+                <p>Desarrollador web y back-end</p>
+            </div> -->
 
         </div>
     </main>
