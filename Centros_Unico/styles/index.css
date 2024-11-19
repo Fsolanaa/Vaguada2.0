@@ -23,6 +23,7 @@
   animation-direction: alternate;
   animation-fill-mode: forwards; /*- ESTO LO QUE HACE ES QUE LA ANIMACIÓN COMIENZE POR EL PRINCIPIO -*/
   animation-iteration-count: infinite; /*- ESTO LO QUE HACE ES QUE NO TENGA FIN-*/
+  
 }
 .item-slide {
   position: relative;
@@ -32,6 +33,7 @@
   flex-shrink: 0; /*- ESTO LO QUE HACE ES QUE ABARQUE TODO EL ESPACIO DE MANERA HORIZONTAL -*/
   flex-grow: 0;
   width: 100%;
+
 }
 .pagination {
   position: relative;
@@ -43,6 +45,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  margin-bottom: 5%;
 }
 .pagination-item {
   display: flex;

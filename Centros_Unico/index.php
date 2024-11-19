@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="styles/index.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="styles/formInicio.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="styles/formRegistro.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="styles/productCards.css?v=<?php echo time(); ?>">
+
     <script src="js/contacto.js" defer></script>
     <script src="js/formularios.js" defer></script>
     <script src="js/logicaForms.js" defer></script>
@@ -60,63 +62,61 @@
                 </label>
             </div>
             <!-- Aqui acaba el slider -->
-
-
-            <h2>Tratamientos más deseados</h2>
-
+             
             <section class="deseados">
 
-                <div class="marco">
 
-                    <img class="fotp" src="img/producto1Depi.png" alt="Tarjeta regalo">
+            <?php
+            $data = [
+                'img' => 'img/producto1Depi.png',
+                'titulo' => 'Tarjeta Regalo',
+                'texto' => 'Si no sabes que regalar, una tarjeta regalo puede ser tu mejor decision para esa
+                        persona tan especial.',
+                'coste' => '100€'
+            ];
+            include './include/cardProducto.php';
+            ?>
 
-                    <h4><strong>Tarjeta Regalo</strong></h4>
 
-                    <p class="parrafo">Si no sabes que regalar, una tarjeta regalo puede ser tu mejor decision para esa
-                        persona tan especial.</p>
+            <?php
+            $data = [
+                'img' => 'img/producto2ESTÉTICA.jpg',
+                'titulo' => 'Accent Prime Corporal',
+                'texto' => 'Estrena gluteos gracias a nuestros especialistas cualificados y a buenos precios.',
+                'coste' => '120€'
+            ];
+            include './include/cardProducto.php';
+            ?>
 
-                    <button class="boton"><strong>Más información</strong></button>
 
-                </div>
+            <?php
+            $data = [
+                'img' => 'img/producto1MEDI.jpg',
+                'titulo' => 'Depilacion gluteos',
+                'texto' => 'Estrena gluteos gracias a nuestros especialistas cualificados y a buenos precios.',
+                'coste' => '40€'
+            ];
+            include './include/cardProducto.php';
+            ?>
 
-                <div class="marco">
 
-                    <img class="fotp" src="img/producto2ESTÉTICA.jpg" alt="Depilacion gluteos">
+            <?php
+            $data = [
+                'img' => 'img/PRODUCTO4ESTETICA.jpg',
+                'titulo' => 'Hilos redensify',
+                'texto' => 'Rellenado de arrugas sin agujas.Trabaja el fotoenvejecimiento unificando el tono de
+                        la piel.',
+                'coste' => '20€'
+            ];
+            include './include/cardProducto.php';
+            ?>
+                 
+                 
 
-                    <h4><strong>Accent Prime Corporal</strong></h4>
+                
+                
 
-                    <p class="parrafo">Estrena gluteos gracias a nuestros especialistas cualificados y a buenos precios.
-                    </p>
-
-                    <button class="boton"><strong><strong>Más información</strong></strong></button>
-
-                </div>
-
-                <div class="marco">
-
-                    <img class="fotp" src="img/producto1MEDI.jpg" alt="Depilacion gluteos">
-
-                    <h4><strong>Depilacion gluteos</strong></h4>
-
-                    <p class="parrafo">Estrena gluteos gracias a nuestros especialistas cualificados y a buenos precios.
-                    </p>
-
-                    <button class="boton"><strong>Más información</strong></button>
-
-                </div>
-
-                <div class="marco">
-
-                    <img class="fotp" src="img/PRODUCTO4ESTETICA.jpg" alt="Depilacion gluteos">
-
-                    <h4><strong>Hilos redensify</strong></h4>
-
-                    <p class="parrafo">Rellenado de arrugas sin agujas.Trabaja el fotoenvejecimiento unificando el tono de
-                        la piel.</p>
-
-                    <button class="boton"><strong>Más información</strong></button>
-
-                </div>
+                
 
             </section>
     </main>
