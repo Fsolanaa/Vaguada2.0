@@ -55,13 +55,6 @@
                 ];
                 include './include/cardEquipo.php';
             ?>
-            <!-- <div class="marco">
-                <img class="foto" src="img/Foto_Rafa.jpg" alt="Rafa" />
-              <h3>Rafael montes</h3>
-               
-               <p>Desarrollador web</p>
-            </div> -->
-
 
             <?php
                 $data = [
@@ -74,14 +67,6 @@
                 ];
                 include './include/cardEquipo.php';
             ?>
-            
-            <!-- <div class="marco">
-                <img class="foto" src="img/pistachinelespadachin.png" alt="Paco" />
-                
-                <h3>Paco Solana</h3>
-                <p>Desarrollador web y diseñador</p>
-
-            </div> -->
 
             <?php
                 $data = [
@@ -95,13 +80,6 @@
                 include './include/cardEquipo.php';
             ?>
 
-            <!-- <div class="marco">
-                <img class="foto" src="img/chipi.webp" alt="Juan" />
-               
-                <h3>Juan Esteban</h3>
-                <p>Desarrollador web</p>
-            </div> -->
-
             <?php
                 $data = [
                     'img' => 'img/Foto_marcos.png',
@@ -113,13 +91,6 @@
                 ];
                 include './include/cardEquipo.php';
             ?>
-
-            <!-- <div class="marco">
-                <img class="foto" src="img/Foto_marcos.png" alt="Marcos" />
-               
-                <h3>Marcos Fernandez</h3>
-                <p>Desarrollador web y back-end</p>
-            </div> -->
 
         </div>
     </main>
