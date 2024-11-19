@@ -1,10 +1,3 @@
-<?php
-
-require_once("./modelo/DBcatalogo.php");
-$conexion = new \modelo\DBcatalogo;
-$arrayCatalogos = $conexion->obtenerProductos();
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -85,42 +78,7 @@ $arrayCatalogos = $conexion->obtenerProductos();
 
 
         <section class="Producto">
-            <div class="marco">
-
-                <img class="fotp" src="img/producto1Depi.png" alt="centros-unico-tarjeta-regalo-depilacion">
-
-                <h4><strong>Tarjeta Regalo</strong></h4>
-
-                <p class="parrafo">Si no sabes que regalar, una tarjeta regalo puede ser tu mejor decision para esa persona
-                    tan especial.</p>
-
-                <a href="#" onclick="abrirVentanaProducto()">
-                    <button class="pushable">
-                        <span class="shadow"></span>
-                        <span class="edge"></span>
-                        <span class="front"> Más información </span>
-                    </button>
-                </a>
-
-            </div>
-
-            <div class="marco">
-
-                <img class="fotp" src="img/producto1MEDI.jpg" alt="centros-unico-hidrolipoclasia-antigrasa-duradera">
-
-                <h4><strong>Hidrolipoclasia</strong></h4>
-
-                <p class="parrafo">El tratamiento reductor de grasa y volumen Hidrolipoclasia elimina de forma duradera</p>
-
-                <button class="pushable">
-                    <span class="shadow"></span>
-                    <span class="edge"></span>
-                    <span class="front"> Más información </span>
-                </button>
-
-            </div>
-
-            <div class="marco">
+            <!-- <div class="marco">
 
                 <img class="fotp" src="img/producto2Depi.jpg" alt="centros-unico-depilacion-laser-dorsarles">
 
@@ -234,10 +192,6 @@ $arrayCatalogos = $conexion->obtenerProductos();
 
             </div>
 
-
-
-
-
             <div class="marco">
 
                 <img class="fotp" src="img/producto3MEDI.jpg" alt="bioestimulacin-revitalizante-acido-hialunronico-centros-unico">
@@ -335,8 +289,41 @@ $arrayCatalogos = $conexion->obtenerProductos();
                     <span class="front"> Más información </span>
                 </button>
 
-            </div>
+            </div> -->
 
+            <!-- 1º TARJETA -->
+            <?php
+            $data = [
+                'img' => 'img/producto1Depi.png',
+                'titulo' => 'Tarjeta Regalo',
+                'texto' => 'Si no sabes que regalar, una tarjeta regalo puede ser tu mejor decision para esa persona
+                    tan especial.',
+                'coste' => '29.99€'
+            ];
+            include './include/cardProducto.php';
+            ?>
+
+            <!-- 2º TARJETA -->
+            <?php
+            $data = [
+                'img' => 'img/producto1MEDI.jpg',
+                'titulo' => 'Hidrolipoclasia',
+                'texto' => 'El tratamiento reductor de grasa y volumen Hidrolipoclasia elimina de forma duradera',
+                'coste' => '59.99€'
+            ];
+            include './include/cardProducto.php';
+            ?>
+
+            <?php
+            $data = [
+                'img' => 'img/producto1Depi.png',
+                'titulo' => 'Tarjeta Regalo',
+                'texto' => 'Si no sabes que regalar, una tarjeta regalo puede ser tu mejor decision para esa persona
+                    tan especial.',
+                'coste' => '29.99€'
+            ];
+            include './include/cardProducto.php';
+            ?>
 
         </section>
     </main>
@@ -345,7 +332,7 @@ $arrayCatalogos = $conexion->obtenerProductos();
     include "./include/footer.php";
     ?>
 
-     <script>
+    <script>
 
         function mostrarVentana() {
             document.getElementById("formulario").style.display = "block";
@@ -360,8 +347,8 @@ $arrayCatalogos = $conexion->obtenerProductos();
             document.getElementById("header").style.filter = "none";
             document.getElementById("nav").style.filter = "none";
             document.getElementById("cajaContacto").style.filter = "none";
-        } 
-        function abrirVentanaProducto(){
+        }
+        function abrirVentanaProducto() {
             document.getElementById("ventanaProducto").style.display = "block";
             document.getElementById("cuerpo").style.filter = "blur(5px)";
             document.getElementById("header").style.filter = "blur(5px)";
@@ -377,8 +364,8 @@ $arrayCatalogos = $conexion->obtenerProductos();
             document.getElementById("cajaContacto").style.filter = "none";
         }
         function agregarAlCarrito() {
-        
-        alert('Producto agregado al carrito');
+
+            alert('Producto agregado al carrito');
         }
     </script>
 </body>
