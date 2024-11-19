@@ -4,7 +4,7 @@
 <div id="cajaContacto">
     <div class="contacto">
 
-        <h5>PIDE TÚ CITA <span class="text-primary"> AQUÍ </span>PARA EL DIAGNÓSTICO GRATUITO</h5>
+        <h5>30% de descuento. ¡Compra ya!</h5>
 
     </div>
 </div>
@@ -20,10 +20,11 @@
 
     <nav>
         <ul>
-            <li>Home</li>
-            <li>Products</li>
-            <li>About us</li>
-            <li>Contact</li>
+            <li><a href="index.php">Inicio</a></li>
+            <li><a href="Productos.php">Productos</a></li>
+            <li><a href="Promociones.php">Promociones</a></li>
+            <li><a href="Blog.php">Blog</a></li>
+            <li><a href="nuestroEquipo.php">Sobre nosotros</a></li>
         </ul>
     </nav>
 
@@ -38,5 +39,6 @@
 
 </header>
 
+<hr class="debajoHeader">
 <!-- NAV -->
 
