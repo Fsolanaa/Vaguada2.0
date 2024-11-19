@@ -39,7 +39,6 @@ li{
 /* FORMULARIO CONTACTO */
 
 #cajaContacto {
-
   width: auto;
   height: 45px;
   display: block;
@@ -165,7 +164,9 @@ header .botonesHeader i:hover{
 /* NAV */
 
 nav{
-  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 nav ul{
@@ -182,8 +183,17 @@ li{
   list-style: none;
 }
 
+nav ul li a{
+  text-decoration: none;
+  color: #000000;
+}
+
 li:hover{
   background-color: rgb(209, 204, 163);
+}
+
+.debajoHeader{
+  position: relative;
 }
 
 /* FOOTER */
@@ -284,24 +294,7 @@ footer{
 /* MEDIA NAV */
 
 @media(max-width:750px){
-  nav .listaNav{
-      margin: 0;
-  }
-  nav .equipo{
-      border-right: 1px solid black;
-      width: 24%;
-  }
-  nav .productos{
-      border-right: 1px solid black;
-      width: 26%;
-  }
-  nav .promo{
-      border-right: 1px solid black;
-      width: 30%;
-  }
-  nav .blog{
-      width: 20%;
-  }
+
 
   nav ul li a {
       width: 100%;
