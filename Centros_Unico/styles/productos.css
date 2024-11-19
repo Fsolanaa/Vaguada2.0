@@ -270,14 +270,15 @@ input[id="3"]:checked~.pagination .pagination-item[for="3"] {
 .card {
   width: 15%;
   max-width: 300px;
-  min-width: 200px;
+  min-width: 225px;
   height: auto;
+  margin-bottom: 5%;
   padding: .8em;
   background: #f5f5f5;
   position: relative;
   overflow: visible;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
- }
+}
  
  .card-img {
   background-color: transparent;
@@ -286,12 +287,13 @@ input[id="3"]:checked~.pagination .pagination-item[for="3"] {
   border-radius: .5rem;
   transition: .3s ease;
   overflow: hidden;
- }
+}
 
  
  .card-info {
   padding-top: 10%;
- }
+  min-height: 150px;
+}
  
  svg {
   width: 20px;
@@ -304,6 +306,7 @@ input[id="3"]:checked~.pagination .pagination-item[for="3"] {
   justify-content: space-between;
   align-items: center;
   padding-top: 10px;
+  color:rgb(255, 127, 50) ;
   border-top: 1px solid #ddd;
  }
  
@@ -336,8 +339,8 @@ input[id="3"]:checked~.pagination .pagination-item[for="3"] {
  }
  
  .card-button:hover {
-  border: 1px solid #ffcaa6;
-  background-color: #ffcaa6;
+  border: 1px solid rgb(255, 127, 50);
+  background-color: rgb(255, 127, 50);
  }
  
 
