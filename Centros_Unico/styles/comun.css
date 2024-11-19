@@ -6,6 +6,11 @@
   font-family: "Montserrat", sans-serif;
 }
 
+body{
+  overflow-x: hidden;
+  
+}
+
 /* SCROLLBAR */
 ::-webkit-scrollbar {
   width: 10px;
@@ -27,149 +32,44 @@ li{
   list-style: none;
 }
 
-/* HEADER */
-header {
-  height: 65px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-header .logo {
-  width: 65%;
-  height: 65px;
-
-}
-
-header .logo a {
-  display: flex;
-  height: 65px;
-  
-
-}
-
-header .logo img {
-  width: 200px;
-  height: 65px;
-  padding: 1%;
-}
-
-header .botonesHeader{
-  width: 35%;
-  min-width: 100px;
-  height: 65px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: end;
-  align-content: end;
-  padding-right: 1%;
-}
-
-header .botonesHeader a{
-  width: 10%;
-  min-width: 40px;
-  height: 65px;
-  min-height: 65px;
-  max-height: 65px;
-  overflow: hidden;
-  text-decoration: none;
-}
-
-header .botonesHeader i{
-  width: auto;
-  height: 65px;
-  min-height: 65px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-around;
-  align-content: space-around;
-  color: rgb(255, 127, 50);
-  transform: scale(1.5);
-  transition: 0.3s;
-}
-
-header .botonesHeader i:hover{
-  color: #df5b09;
-  transform: scale(1.7);
-  transition: 0.3s;
-}
-
-/* NAV */
-
-nav {
-  width: 100%;
-  height: 50px;
-  position: sticky;
-  top: 0px;
-  z-index: 110;
-  overflow: auto;
-  background-color: #f5e1ce;
-  
-}
-
-.listaNav {
-  height: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
-nav ul li {
-  width: 25%;
-  min-width: 65px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-}
-
-nav ul li a {
-  width: 100%;
-  height: 50px;
-  text-decoration: none;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  color: #804000;
-  font-weight: bold;
-}
-
-nav ul li:hover {
-  background-color: #e8c39e;
+.inicial{
+  position: absolute;
 }
 
 /* FORMULARIO CONTACTO */
 
 #cajaContacto {
-  width: 100%;
+
+  width: auto;
   height: 45px;
+  display: block;
   cursor: pointer;
-  position: sticky;
-  top: 50px;
+  position: relative;
+  top: 0;
   z-index: 110;
-  background-color: black;
-  color: #ffffff;
+  color: #000000;
   font-size: 16px;
   text-align: center;
+  animation: marquee 15s linear infinite;
+  overflow: hidden;
   
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(100%, 0); /* texto inicialmente fuera de la pantalla */
+    
+  }
+  100% {
+    transform: translate(-50%, 0); /* texto en la posición inicial */
+  }
 }
 
 #cajaContacto .contacto{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center;
+  justify-content: left;
   align-content: center;
   height: 45px;
   width: 100%;
@@ -200,6 +100,90 @@ nav ul li:hover {
 #cajaContacto .text-primary {
   color: #ffb282;
   padding: 0 5px;
+}
+
+.encimaHeader{
+  position: relative;
+}
+
+/* HEADER */
+header {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ align-items: center;
+}
+
+header .logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin-left: 1em;
+}
+
+header .botonesHeader {
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; /* Esto separará los botones */
+  align-items: center;
+  margin-right: 1em;
+}
+
+
+.logoImg{
+  justify-content: left;
+}
+
+.imgCesta{
+  width: 60%;
+}
+
+header .botonesHeader i{
+  width: auto;
+  height: 65px;
+  min-height: 65px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+  color: rgb(255, 127, 50);
+  transform: scale(1.5);
+  transition: 0.3s;
+}
+
+header .botonesHeader i:hover{
+  color: #df5b09;
+  transform: scale(1.7);
+  transition: 0.3s;
+}
+
+/* NAV */
+
+nav{
+  
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li{
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  list-style: none;
+}
+
+li:hover{
+  background-color: rgb(209, 204, 163);
 }
 
 /* FOOTER */
