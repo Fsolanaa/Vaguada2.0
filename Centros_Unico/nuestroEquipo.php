@@ -58,7 +58,8 @@
 
             <?php
                 $data = [
-                    'img' => 'img/pistachinelespadachin.png',
+                    //'img' => 'img/pistachinelespadachin.png',
+                    'img' => 'img/Foto_paco.jpg',
                     'nombre' => 'Paco Solana',
                     'texto' => 'Desarrollador web y diseñador',
                     'email' => 'mailto:bios0179@gmail.com',
@@ -70,7 +71,8 @@
 
             <?php
                 $data = [
-                    'img' => 'img/chipi.webp',
+                    //'img' => 'img/chipi.webp',
+                    'img' => 'img/Foto_juan.jpg',
                     'nombre' => 'Juan Esteban',
                     'texto' => 'Desarrollador web y back-end',
                     'email' => 'mailto:jestebanl2004@gmail.com',
