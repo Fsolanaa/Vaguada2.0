@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/promociones.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="styles/formInicio.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="styles/formRegistro.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="styles/productCards.css?v=<?php echo time(); ?>">
     <script src="js/contacto.js" defer></script>
     <script src="js/formularios.js" defer></script>
     <script src="js/logicaForms.js" defer></script>
@@ -39,72 +40,61 @@
 
         <section class="promos">
 
-            <div class="marco">
-
-                <img class="fotp" src="img/producto1Depi.png" alt="Tarjeta regalo">
-
-                <h4><strong>Tarjeta Regalo</strong></h4>
-
-                <p class="parrafo">Si no sabes que regalar, una tarjeta regalo puede ser tu mejor decision para esa persona
-                    tan especial.</p>
-
-                    <button class="pushable">
-                    <span class="shadow"></span>
-                    <span class="edge"></span>
-                    <span class="front"> Más información </span>
-                    </button>
+            <!-- 1º TARJETA -->
+            <?php
+            $data = [
+                'img' => 'img/producto1Depi.png',
+                'titulo' => 'Tarjeta Regalo',
+                'texto' => 'Si no sabes que regalar, una tarjeta regalo puede ser tu mejor decision para esa persona
+                    tan especial.',
+                'coste' => '29.99€'
+            ];
+            include './include/cardProducto.php';
+            ?>
 
 
-            </div>
+            <!-- 2º TARJETA -->
+            <?php
+            $data = [
+                'img' => 'img/producto2ESTÉTICA.jpg',
+                'titulo' => 'Accent Prime Corporal',
+                'texto' => 'Estrena gluteos gracias a nuestros especialistas cualificados y a buenos precios.',
+                'coste' => '29.99€'
+            ];
+            include './include/cardProducto.php';
+            ?>
 
-            <div class="marco">
 
-                <img class="fotp" src="img/producto2ESTÉTICA.jpg" alt="Depilacion gluteos">
+            <!-- 3º TARJETA -->
+            <?php
+            $data = [
+                'img' => 'img/producto1MEDI.jpg',
+                'titulo' => 'Depilacion gluteos',
+                'texto' => 'Estrena gluteos gracias a nuestros especialistas cualificados y a buenos precios.',
+                'coste' => '29.99€'
+            ];
+            include './include/cardProducto.php';
+            ?>
 
-                <h4><strong>Accent Prime Corporal</strong></h4>
 
-                <p class="parrafo">Estrena gluteos gracias a nuestros especialistas cualificados y a buenos precios.</p>
+            <!-- 4º TARJETA -->
+            <?php
+            $data = [
+                'img' => 'img/PRODUCTO4ESTETICA.jpg',
+                'titulo' => 'Hilos redensify',
+                'texto' => 'Rellenado de arrugas sin agujas.Trabaja el fotoenvejecimiento unificando el tono de la
+                    piel.',
+                'coste' => '29.99€'
+            ];
+            include './include/cardProducto.php';
+            ?>
+            
 
-                <button class="pushable">
-                    <span class="shadow"></span>
-                    <span class="edge"></span>
-                    <span class="front"> Más información </span>
-                    </button>
+              
 
-            </div>
+            
 
-            <div class="marco">
-
-                <img class="fotp" src="img/producto1MEDI.jpg" alt="Depilacion gluteos">
-
-                <h4><strong>Depilacion gluteos</strong></h4>
-
-                <p class="parrafo">Estrena gluteos gracias a nuestros especialistas cualificados y a buenos precios.</p>
-
-                <button class="pushable">
-                    <span class="shadow"></span>
-                    <span class="edge"></span>
-                    <span class="front"> Más información </span>
-                    </button>
-
-            </div>
-
-            <div class="marco">
-
-                <img class="fotp" src="img/PRODUCTO4ESTETICA.jpg" alt="Depilacion gluteos">
-
-                <h4><strong>Hilos redensify</strong></h4>
-
-                <p class="parrafo">Rellenado de arrugas sin agujas.Trabaja el fotoenvejecimiento unificando el tono de la
-                    piel.</p>
-
-                    <button class="pushable">
-                    <span class="shadow"></span>
-                    <span class="edge"></span>
-                    <span class="front"> Más información </span>
-                    </button>
-
-            </div>
+            
         </section>
 
     </main>
@@ -131,7 +121,7 @@
             document.getElementById("nav").style.filter = "none";
             document.getElementById("cajaContacto").style.filter = "none";
         }
-    </script> -->
+    </script>  -->
 
 </body>
 
