@@ -4,12 +4,12 @@
 <div id="cajaContacto">
     <div class="contacto">
 
-        <h5>30% de descuento. ¡Compra ya!</h5>
+        <h5>30% de descuento. ¡Pide cita ahora!</h5>
 
     </div>
 </div>
 
-<hr class="encimaHeader">
+<!-- <hr class="encimaHeader"> -->
 
 <header id="header">
     <div class="logo">
@@ -39,6 +39,6 @@
 
 </header>
 
-<hr class="debajoHeader">
+<!-- <hr class="debajoHeader"> -->
 <!-- NAV -->
 
