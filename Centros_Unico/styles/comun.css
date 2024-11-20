@@ -53,9 +53,7 @@ li{
   overflow: hidden;
   
 }
-.naranja{
-  color: #ff7f32;
-}
+
 @keyframes marquee {
   0% {
     transform: translate(100%, 0); /* texto inicialmente fuera de la pantalla */

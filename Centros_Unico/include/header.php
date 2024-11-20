@@ -4,7 +4,7 @@
 <div id="cajaContacto">
     <div class="contacto">
 
-        <h5>30% de descuento. <h5 class="naranja">¡Pide cita ahora!</h5></h5>
+        <h5>30% de descuento. ¡Pide cita ahora!</h5>
         
 
     </div>
