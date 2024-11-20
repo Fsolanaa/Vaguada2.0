@@ -20,11 +20,11 @@
 
     <nav>
         <ul>
-            <li><a href="index.php">Inicio</a></li>
-            <li><a href="Productos.php">Productos</a></li>
-            <li><a href="Promociones.php">Promociones</a></li>
-            <li><a href="Blog.php">Blog</a></li>
-            <li><a href="nuestroEquipo.php">Sobre nosotros</a></li>
+            <li class="lista-nav"><a href="index.php">Inicio</a></li>
+            <li class="lista-nav"><a href="Productos.php">Productos</a></li>
+            <li class="lista-nav"><a href="Promociones.php">Promociones</a></li>
+            <li class="lista-nav"><a href="Blog.php">Blog</a></li>
+            <li class="lista-nav"><a href="nuestroEquipo.php">Sobre nosotros</a></li>
         </ul>
     </nav>
 

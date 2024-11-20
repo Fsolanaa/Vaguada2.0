@@ -178,7 +178,7 @@ nav ul{
   justify-content: center;
 }
 
-li{
+.lista-nav{
   padding: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -190,7 +190,7 @@ nav ul li a{
   color: #000000;
 }
 
-li:hover{
+.lista-nav:hover{
   background-color: rgb(209, 204, 163);
 }
 
