@@ -46,7 +46,7 @@
         <div class="nosotros">
             <?php
                 $data = [
-                    'img' => 'img/Foto_Rafa.jpg',
+                    'img' => 'img/Foto_Rafa-2.jpg',
                     'nombre' => 'Rafael montes',
                     'texto' => 'Desarrollador web',
                     'email' => 'mailto:rafaelmontesjimenez@gmail.com',
