@@ -25,7 +25,7 @@
             <li class="lista-nav"><a href="Productos.php">Productos</a></li>
             <li class="lista-nav"><a href="Promociones.php">Promociones</a></li>
             <li class="lista-nav"><a href="Blog.php">Blog</a></li>
-            <li class="lista-nav"><a href="nuestroEquipo.php">Sobre nosotros</a></li>
+            <li class="lista-nav"><a href="nuestroEquipo.php">Desarrolladores</a></li>
         </ul>
     </nav>
 
