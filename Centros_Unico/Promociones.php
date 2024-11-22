@@ -88,17 +88,10 @@
             ];
             include './include/cardProducto.php';
             ?>
-            
 
-              
-
-            
-
-            
         </section>
 
     </main>
-
 
     <?php
     include "./include/footer.php";

@@ -79,7 +79,7 @@
         </div>
 
 
-        <section class="Producto">
+        <section class="producto">
         
             <!-- 1º TARJETA -->
             <?php

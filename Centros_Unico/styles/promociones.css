@@ -25,12 +25,13 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin: 20px;
 }
 
 /* Seccioón promociones  */
-.marco{
+
+/* .marco{
   width: 300px;
   height: 430px;
   display: flex;
@@ -53,12 +54,13 @@
 
 .marco p{
   margin-bottom: 20px;
-}
+} */
 
 /* Estilos de los botones de lasd tarjetas */
 
 /* From Uiverse.io by PriyanshuGupta28 */ 
-.pushable {
+
+/* .pushable {
   position: relative;
   background: transparent;
   padding: 0px;
@@ -143,3 +145,4 @@
 .pushable:focus:not(:focus-visible) {
   outline: none;
 }
+ */

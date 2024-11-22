@@ -1,7 +1,6 @@
 .cuerpo {
   display: flex;
   justify-content: center;
-  
 }
 
 .container-all {
@@ -11,9 +10,11 @@
   width: 100%;
   overflow: hidden; /*- ESTO LO QUE HACE ES QUE NO SE SOBREPASEN LAS IMAGENES -*/
 }
+
 .img {
   width: 100%;
 }
+
 .slide {
   display: flex;
   transform: translate3d(0, 0, 0);
@@ -23,8 +24,8 @@
   animation-direction: alternate;
   animation-fill-mode: forwards; /*- ESTO LO QUE HACE ES QUE LA ANIMACIÓN COMIENZE POR EL PRINCIPIO -*/
   animation-iteration-count: infinite; /*- ESTO LO QUE HACE ES QUE NO TENGA FIN-*/
-  
 }
+
 .item-slide {
   position: relative;
   z-index: 0;
@@ -33,8 +34,8 @@
   flex-shrink: 0; /*- ESTO LO QUE HACE ES QUE ABARQUE TODO EL ESPACIO DE MANERA HORIZONTAL -*/
   flex-grow: 0;
   width: 100%;
-
 }
+
 .pagination {
   position: relative;
   z-index: 0;
@@ -47,6 +48,7 @@
   width: 100%;
   margin-bottom: 5%;
 }
+
 .pagination-item {
   display: flex;
   flex-direction: column;
@@ -66,6 +68,7 @@
 .pagination-item:hover {
   transform: scale(2);
 }
+
 .pagination-item img {
   display: inline-block;
   max-width: none;
@@ -74,6 +77,7 @@
   opacity: 0;
   transition: all 300ms;
 }
+
 .pagination-item:hover img {
   /*- Cuando pasemos el cursor por encima se mostraran las mini-imagenes -*/
   opacity: 1;
@@ -120,9 +124,6 @@ input[id="3"]:checked ~ .pagination .pagination-item[for="3"] {
   }
 }
 
-
-
-
 h2{
   margin-top: 50px;
   text-align: center;
@@ -132,10 +133,10 @@ h2{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
-.marco{
+/* .marco{
   width: 350px;
   height: 500px;
   border: 1px black solid;
@@ -144,7 +145,6 @@ h2{
   margin-bottom: 20px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.7) ;
 }
-
 
 .fotp{
   width: 100%;
@@ -157,9 +157,9 @@ h2{
   position: relative;
   top: 40px;
   text-align: center;
-}
+} */
 
-.parrafo{
+/* .parrafo{
   position: relative;
   top: 70px;
   padding: 6%;
@@ -177,7 +177,6 @@ h2{
   left: 90px;
   top: 95px;
 }
-
 
 .contenedor{
   width: 100%;
@@ -198,5 +197,4 @@ h2{
   height: 35%;
   position: relative;
   top: 90px;
-  
-}
+} */
