@@ -34,9 +34,11 @@
     
         <div class="container">
             <div class="seccion">
+                <div class="foto">
                 <img class="fotoart" src="img/acidoh.jpg" alt="" />
+                </div>
                 <a href="#"></a>
-
+                <div class="texto">
                 <h2>Tratamientos dermoesteticos que funcionan</h2>
 
                 <p>
@@ -48,12 +50,15 @@
                     procedimientos (junto a dieta y ejercicio), algunos de ellos sí
                     funcionan.
                 </p>
+                </div>
             </div>
 
             <div class="seccion">
+            <div class="foto">
                 <img class="fotoart1" src="img/revision.jpg" alt="" />
+                </div>
                 <a href="#"></a>
-
+                <div class="texto">
                 <h2>
                     ¿Como prevenir las manchas y lesiones en el verano?
                 </h2>
@@ -68,10 +73,13 @@
                     perfecto para rostro y escote ya que se absorbe fácilmente como un
                     gel pero hidrata como una crema. ¡Lo más práctico!
                 </p>
+                </div>
             </div>
 
             <div class="seccion">
+            <div class="foto">
                 <img class="fotoart" src="img/crema.jpg" alt="" />
+                </div>
                 <a href="#"></a>
 
                 <h2>Descubre cual es tu tratamiento ideal</h2>
@@ -96,10 +104,12 @@
             </div>
 
             <div class="seccion">
+                <div class="foto">
                 <img class="fotoart1" src="img/intervencion.jpg" alt="" />
+                </div>
                 <a href="#"></a>
-
-                <h2 class="h34">
+                <div class="texto">
+                <h2>
                     ¿Como asesorarse en cuanto a intervenciones esteticas?
                 </h2>
 
@@ -114,6 +124,7 @@
                     que elijas esté debidamente acreditado y tenga experiencia en la
                     intervención que deseas.
                 </p>
+                </div>
             </div>
         </div>
     </main>
