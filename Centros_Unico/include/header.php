@@ -1,12 +1,9 @@
 <hr class="inicial">
 
 <!-- CAJA CONTACTO -->
-<div id="cajaContacto">
-    <div class="contacto">
-
-        <h5>30% de descuento. ¡Pide cita ahora!</h5>
-        
-
+<div id="contenedorContacto">
+    <div id="cajaContacto">
+        <h5 id="textoContacto">30% de descuento. ¡Pide cita ahora!</h5>
     </div>
 </div>
 
@@ -19,7 +16,7 @@
         </a>
     </div>
 
-    <nav>
+    <nav id="nav">
         <ul>
             <li class="lista-nav"><a href="index.php">Inicio</a></li>
             <li class="lista-nav"><a href="Productos.php">Productos</a></li>

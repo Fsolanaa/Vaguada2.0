@@ -8,7 +8,7 @@
 
 body{
   overflow-x: hidden;
-  
+  background-color: #f8eaf2;
 }
 
 /* SCROLLBAR */
@@ -38,33 +38,39 @@ li{
 
 /* FORMULARIO CONTACTO */
 
-#cajaContacto {
-  width: auto;
-  height: 45px;
-  display: block;
+#contenedorContacto{
+  width: 100%;
+  overflow: hidden;
+  display: flex;
   cursor: pointer;
+}
+
+#cajaContacto {
+  width: 100%;
+  height: 45px;
+  display: inline-block;
   position: relative;
   top: 0;
   z-index: 110;
   color: #000000;
   font-size: 16px;
   text-align: center;
+  white-space: nowrap;
   animation: marquee 15s linear infinite;
   overflow: hidden;
-  
 }
+
 
 @keyframes marquee {
   0% {
-    transform: translate(100%, 0); /* texto inicialmente fuera de la pantalla */
-    
+    transform: translate(105%, 0); /* texto inicialmente fuera de la pantalla */
   }
   100% {
-    transform: translate(-25%, 0); /* texto en la posición inicial */
+    transform: translate(-20%, 0); /* texto en la posición inicial */
   }
 }
 
-#cajaContacto .contacto{
+/* #cajaContacto .contacto{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -73,33 +79,34 @@ li{
   height: 45px;
   width: 100%;
   padding: 5px;
-}
+} */
 
-#cajaContacto a {
+/* #cajaContacto a {
   text-decoration: none;
   color: #fff;
   display: block;
-}
+} */
 
-#cajaContacto .punto {
+/* #cajaContacto .punto {
   padding: 0 10px;
-}
+} */
 
 #cajaContacto h5{
-  width: auto;
-  font-size: medium;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center;
+  justify-content: left;
   align-content: center;
+  height: 45px;
+  width: 100%;
+  padding: 5px;
 
 }
 
-#cajaContacto .text-primary {
+/* #cajaContacto .text-primary {
   color: #ffb282;
   padding: 0 5px;
-}
+} */
 
 .encimaHeader{
   position: relative;
@@ -318,35 +325,38 @@ footer{
 /* MEDIA CAJA CONTACTO */
 
 @media(max-width:350px){
-  #cajaContacto .contacto{
+  /* #cajaContacto .contacto{
     padding: 0;
     justify-content: space-between;
-  }
+  } */
 
   #cajaContacto h5{
+    padding: 0;
+    justify-content: space-between;
     font-size: 11px;
   }
 
-  #cajaContacto .punto{
+  /* #cajaContacto .punto{
     padding: 0 2px;
     width: 20px;
-  }
+  } */
 
 }
 
 @media(min-width:350px){
-  #cajaContacto .contacto{
+  /* #cajaContacto .contacto{
     padding: 0;
-  }
+  } */
 
   #cajaContacto h5{
+    padding: 0;
     font-size: 11.5px;
   }
 
-  #cajaContacto .punto{
+  /* #cajaContacto .punto{
     padding: 0 2px;
     width: 20px;
-  }
+  } */
 }
 
 @media(min-width:470px){
@@ -354,10 +364,10 @@ footer{
     font-size: 15px;
   }
 
-  #cajaContacto .punto {
+  /* #cajaContacto .punto {
     padding: 0 2px;
     width: 25px;
-  }
+  } */
 }
 
 @media(min-width:600px){
@@ -365,10 +375,10 @@ footer{
     font-size: large;
   }
 
-  #cajaContacto .punto {
+  /* #cajaContacto .punto {
     margin: 0 10px;
     width: 35px;
-  }
+  } */
 }
 
 /* MEDIA FOOTER */
