@@ -38,7 +38,6 @@
     include "./include/formRegistro.php";
     ?>
     <main id="cuerpo">
-
         <!-- Aqui empieza el slider -->
         <div class="container-all">
             <input type="radio" id="1" name="image-slide" hidden />
@@ -64,84 +63,57 @@
             <!-- Aqui acaba el slider -->
              
             <section class="deseados">
+                <?php
+                    $data = [
+                        'img' => 'img/producto1Depi.png',
+                        'titulo' => 'Tarjeta Regalo',
+                        'texto' => 'Si no sabes que regalar, una tarjeta regalo puede ser tu mejor decision para esa
+                                persona tan especial.',
+                        'coste' => '100€'
+                    ];
+                    include './include/cardProducto.php';
+                ?>
 
 
-            <?php
-            $data = [
-                'img' => 'img/producto1Depi.png',
-                'titulo' => 'Tarjeta Regalo',
-                'texto' => 'Si no sabes que regalar, una tarjeta regalo puede ser tu mejor decision para esa
-                        persona tan especial.',
-                'coste' => '100€'
-            ];
-            include './include/cardProducto.php';
-            ?>
+                <?php
+                    $data = [
+                        'img' => 'img/producto2ESTÉTICA.jpg',
+                        'titulo' => 'Accent Prime Corporal',
+                        'texto' => 'Estrena gluteos gracias a nuestros especialistas cualificados y a buenos precios.',
+                        'coste' => '120€'
+                    ];
+                    include './include/cardProducto.php';
+                ?>
 
 
-            <?php
-            $data = [
-                'img' => 'img/producto2ESTÉTICA.jpg',
-                'titulo' => 'Accent Prime Corporal',
-                'texto' => 'Estrena gluteos gracias a nuestros especialistas cualificados y a buenos precios.',
-                'coste' => '120€'
-            ];
-            include './include/cardProducto.php';
-            ?>
+                <?php
+                    $data = [
+                        'img' => 'img/producto1MEDI.jpg',
+                        'titulo' => 'Depilacion gluteos',
+                        'texto' => 'Estrena gluteos gracias a nuestros especialistas cualificados y a buenos precios.',
+                        'coste' => '40€'
+                    ];
+                    include './include/cardProducto.php';
+                ?>
 
 
-            <?php
-            $data = [
-                'img' => 'img/producto1MEDI.jpg',
-                'titulo' => 'Depilacion gluteos',
-                'texto' => 'Estrena gluteos gracias a nuestros especialistas cualificados y a buenos precios.',
-                'coste' => '40€'
-            ];
-            include './include/cardProducto.php';
-            ?>
-
-
-            <?php
-            $data = [
-                'img' => 'img/PRODUCTO4ESTETICA.jpg',
-                'titulo' => 'Hilos redensify',
-                'texto' => 'Rellenado de arrugas sin agujas.Trabaja el fotoenvejecimiento unificando el tono de
-                        la piel.',
-                'coste' => '20€'
-            ];
-            include './include/cardProducto.php';
-            ?>
-                 
-                 
-
-                
-                
-
-                
-
+                <?php
+                    $data = [
+                        'img' => 'img/PRODUCTO4ESTETICA.jpg',
+                        'titulo' => 'Hilos redensify',
+                        'texto' => 'Rellenado de arrugas sin agujas.Trabaja el fotoenvejecimiento unificando el tono de
+                                la piel.',
+                        'coste' => '20€'
+                    ];
+                    include './include/cardProducto.php';
+                ?>
             </section>
+        </div>
+
     </main>
 
     <?php
-    include "./include/footer.php";
+        include "./include/footer.php";
     ?>
-
-    <!-- <script>
-
-        function mostrarVentana() {
-            document.getElementById("formulario").style.display = "block";
-            document.getElementById("cuerpo").style.filter = "blur(5px)";
-            document.getElementById("header").style.filter = "blur(5px)";
-            document.getElementById("nav").style.filter = "blur(5px)";
-            document.getElementById("cajaContacto").style.filter = "blur(5px)";
-        }
-        function cerrarFormulario() {
-            document.getElementById("formulario").style.display = "none";
-            document.getElementById("cuerpo").style.filter = "none";
-            document.getElementById("header").style.filter = "none";
-            document.getElementById("nav").style.filter = "none";
-            document.getElementById("cajaContacto").style.filter = "none";
-        }
-    </script> -->
 </body>
-
 </html>
