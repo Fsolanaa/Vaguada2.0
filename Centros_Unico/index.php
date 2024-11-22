@@ -60,6 +60,7 @@
                     <img src="img/slider3.jpg" alt="FotoSlider" />
                 </label>
             </div>
+        </div>
             <!-- Aqui acaba el slider -->
              
             <section class="deseados">
@@ -108,7 +109,7 @@
                     include './include/cardProducto.php';
                 ?>
             </section>
-        </div>
+        
 
     </main>
 
