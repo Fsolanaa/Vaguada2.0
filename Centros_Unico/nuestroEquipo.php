@@ -47,7 +47,7 @@
             <?php
                 $data = [
                     'img' => 'img/Foto_Rafa-2.jpg',
-                    'nombre' => 'Rafael montes',
+                    'nombre' => 'Rafael Montes',
                     'texto' => 'Desarrollador web',
                     'email' => 'mailto:rafaelmontesjimenez@gmail.com',
                     'github' => 'https://github.com/RMontesJ',
@@ -85,7 +85,7 @@
             <?php
                 $data = [
                     'img' => 'img/Foto_marcos.png',
-                    'nombre' => 'Marcos Fernandez',
+                    'nombre' => 'Marcos Fernández',
                     'texto' => 'Desarrollador web y back-end',
                     'email' => 'mailto:fernandemarcos11@gmail.com',
                     'github' => 'https://github.com/mfernandez69',
