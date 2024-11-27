@@ -81,7 +81,7 @@
                 <img class="fotoart" src="img/crema.jpg" alt="" />
                 </div>
                 <a href="#"></a>
-
+                <div class="texto">
                 <h2>Descubre cual es tu tratamiento ideal</h2>
 
                 <p>
@@ -101,6 +101,7 @@
                     hialurónico que reúne las características adecuadas para tratar y
                     corregir los labios, respetando su movilidad.
                 </p>
+                </div>
             </div>
 
             <div class="seccion">
