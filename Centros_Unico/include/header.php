@@ -46,15 +46,11 @@
         <span class="bottom_line common"></span>
     </div>
 
-    <div class="slide">
+    <div class="slideNav">
         <ul>
-            <!-- <li><a href="#"><i class="fas fa-tv"></i>dashboard</a></li> --> 
             <li class="opL"><a href="#"><i class="fa-solid fa-house"></i>Inicio</a></li>
             <li class="opL"><a href="#"><i class="fa-solid fa-tag"></i>Productos</a></li>
-            <!-- <li><a href="#"><i class="fab fa-gripfire"></i>trending</a></li> -->
             <li class="opL"><a href="#"><i class="fa-solid fa-percent"></i>Promociones</a></li>
-            <!-- <li><a href="#"><i class="far fa-folder"></i>file manager</a></li> -->
-            <!-- <li><a href="#"><i class="far fa-address-book"></i>portfolio</a></li> -->
             <li class="opL"><a href="#"><i class="fa-solid fa-book"></i>Blog</a></li>
             <li class="opL"><a href="#"><i class="fa-solid fa-code"></i>Desarrolladores</a></li>
         </ul>

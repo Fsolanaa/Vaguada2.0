@@ -19,10 +19,7 @@
     <script src="js/formularios.js" defer></script>
     <script src="js/logicaForms.js" defer></script>
     
-    <title>Equipo</title>
-
-
-    <title>Nuestro equipo</title>
+    <title>Equipo de desarrolladores</title>
 
 </head>
 
@@ -41,7 +38,7 @@
 
     
     
-        <h1>Nuestro equipo</h1>
+        <h1>Equipo de desarrolladores</h1>
 
         <div class="nosotros">
             <?php
