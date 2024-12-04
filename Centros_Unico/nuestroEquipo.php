@@ -15,9 +15,9 @@
     <link rel="stylesheet" href="styles/formInicio.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="styles/formRegistro.css?v=<?php echo time(); ?>">
     <script src="js/contacto.js" defer></script>
-
     <script src="js/formularios.js" defer></script>
     <script src="js/logicaForms.js" defer></script>
+    <script src="js/validacionRegistro.js" defer></script>
     
     <title>Equipo de desarrolladores</title>
 
@@ -27,6 +27,14 @@
     
     <?php
     include "./include/header.php";
+    ?>
+
+    <?php
+    include "./include/formulario.php";
+    ?>
+
+    <?php
+    include "./include/formInicio.php";
     ?>
 
     <?php
@@ -100,24 +108,6 @@
     include "./include/footer.php";
     ?>
 
-    <!-- <script>
-        //JAVA que es un lenguaje fuertemente tipado(Cuando pongo una variable tengo que darle un tipo)
-
-        function mostrarVentana() {
-            document.getElementById("formulario").style.display = "block";
-            document.getElementById("cuerpo").style.filter = "blur(5px)";
-            document.getElementById("header").style.filter = "blur(5px)";
-            document.getElementById("nav").style.filter = "blur(5px)";
-            document.getElementById("cajaContacto").style.filter = "blur(5px)";
-        }
-        function cerrarFormulario() {
-            document.getElementById("formulario").style.display = "none";
-            document.getElementById("cuerpo").style.filter = "none";
-            document.getElementById("header").style.filter = "none";
-            document.getElementById("nav").style.filter = "none";
-            document.getElementById("cajaContacto").style.filter = "none";
-        }
-    </script> -->
 </body>
 
 </html>

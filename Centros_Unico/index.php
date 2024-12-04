@@ -31,9 +31,11 @@
     <?php
     include "./include/formulario.php";
     ?>
+
     <?php
     include "./include/formInicio.php";
     ?>
+    
     <?php
     include "./include/formRegistro.php";
     ?>
